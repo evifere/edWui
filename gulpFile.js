@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-
+var es = require('event-stream');
 var clean = require('gulp-clean');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
@@ -8,16 +8,17 @@ var imagemin = require('gulp-imagemin');
 var minifyHTML = require('gulp-minify-html');
 var minifyCSS = require('gulp-minify-css');
 var connect = require('gulp-connect');
+var partials = require('gulp-partial-to-script');
 
 var projectGlobals = {
   vendorscripts: ['src/js/vendor/jquery-2.1.0.min.js'
   ,'src/js/vendor/jquery-ui-1.10.4.custom.min.js'
   ,'src/js/vendor/underscore-min.js'
   ,'src/js/vendor/backbone-min.js'],
-  coreScripts: ['src/js/core/*.js'],
+  coreScripts: ['src/js/core/edWuiBootStrap.js','src/views/*.js','src/js/core/edWuiRouter.js','src/js/core/edWui.js'],
   coreCss: ['src/css/core/*.css'],
-  buildPathToClean: ['build/js/*.js','build/css/*.css','build/css/images/*.*','build/index.html'],
-  coreBuildPathToClean: ['build/js/edWui.min.js','build/css/edWui.min.css','build/index.html'],
+  buildPathToClean: ['build/js/*.js','build/css/*.css','build/css/images/*.*','build/*.html'],
+  coreBuildPathToClean: ['build/js/edWui.min.js','build/css/edWui.min.css','build/*.html'],
   vendorCss:['src/css/vendor/*.css'],
   vendorCssImages:['src/css/vendor/images/*.*']
 };
@@ -47,6 +48,13 @@ return gulp.src(projectGlobals.buildPathToClean)
 .pipe(clean());
 });
 
+// Delete the intermediate generated file
+gulp.task('endclean', function() {
+return gulp.src('build/templates.html')
+.pipe(clean());
+});
+
+
 //build vendor js
 gulp.task('vendorscripts', function() {
   return gulp.src(projectGlobals.vendorscripts)
@@ -73,7 +81,7 @@ gulp.src(projectGlobals.vendorCssImages)
 //build core script
 gulp.task('corescripts', function() {
   return gulp.src(projectGlobals.coreScripts)
-    .pipe(uglify())
+    /*.pipe(uglify())*/
     .pipe(concat('edWui.min.js'))
     .pipe(gulp.dest('build/js'));
 });
@@ -86,16 +94,34 @@ gulp.task('coreCss', function() {
     .pipe(gulp.dest('build/css'));
 });
 
+//build templates
+gulp.task('buildTemplates', function () {
+
+ gulp.src('src/partials/*.html')
+    .pipe(partials());
+});
+
 //build app index
 gulp.task('buildAppIndex', function () {
-    gulp.src(['src/app_view/header.html','src/app_view/index.html','src/app_view/footer.html'])
+ 
+ return es.concat(
+    gulp.src('./src/partials/**/*.html')
+      .pipe(minifyHTML({spare: true}))
+      .pipe(partials())
+      .pipe(concat('templates.html'))
+      .pipe(gulp.dest('./build'))
+  ).on("end", function() {
+    gulp.src(['src/app_view/header.html','./build/templates.html','src/app_view/index.html','src/app_view/footer.html'])
         .pipe(concat('index.html'))
         .pipe(template({
         scripts:["./js/vendor.min.js","./js/edWui.min.js"],
          css:["./css/vendor.min.css","./css/edWui.min.css"]
         }))
-        .pipe(minifyHTML())
+        .pipe(minifyHTML({spare: true}))
         .pipe(gulp.dest('./build'));
+  },'endclean');
+
+
 });
 
 

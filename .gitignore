@@ -22,6 +22,7 @@ build/Release
 build/js/*
 build/css/*
 build/index.html
+build/templates.html
 
 # Dependency directory
 # Deployed apps should consider commenting this line out:
