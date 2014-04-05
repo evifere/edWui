@@ -1,0 +1,32 @@
+{
+  "name": "edWui",
+  "version": "0.0.0",
+  "description": "educational webapp",
+  "main": "build/index.html",
+  "dependencies": {
+    "gulp": "~3.6.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-xml-editor": "~2.0.2"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evifere/edWui.git"
+  },
+  "keywords": [
+    "educational",
+    "webapp",
+    "memory",
+    "game"
+  ],
+  "author": "evifere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evifere/edWui/issues"
+  },
+  "homepage": "https://github.com/evifere/edWui"
+}
