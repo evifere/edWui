@@ -32,7 +32,7 @@ gulp.task('buildVendor',['vendorscripts','vendorcss','copyCssImages']);
 gulp.task('buildCore',['corescripts','coreCss']);
 
 //quick build
-gulp.task('quick',['coreclean','buildCore']);
+gulp.task('quick',['coreclean','buildCore','buildAppIndex']);
 
 
 // Delete the build directories
@@ -88,7 +88,7 @@ gulp.task('coreCss', function() {
 
 //build app index
 gulp.task('buildAppIndex', function () {
-    gulp.src(['src/header.html','src/index.html','src/footer.html'])
+    gulp.src(['src/app_view/header.html','src/app_view/index.html','src/app_view/footer.html'])
         .pipe(concat('index.html'))
         .pipe(template({
         scripts:["./js/vendor.min.js","./js/edWui.min.js"],
