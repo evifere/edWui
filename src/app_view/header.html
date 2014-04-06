@@ -5,6 +5,8 @@
  <title>edWui App</title>
 <% _.forEach(css, function(css) { %><link rel="stylesheet" rel="stylesheet" title="Default" href="<%- css %>" type="text/css" media="screen"><%}); %>
 
+<% _.forEach(jsonDatas, function(src,index) { %><script type="application/json" id="jsondata_<%- index %>" src="./json/<%- src %>"></script><%}); %>
+
 </head>
 
 <body>

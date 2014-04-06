@@ -1,15 +1,24 @@
-var gulp = require('gulp');
-var es = require('event-stream');
-var clean = require('gulp-clean');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var template = require('gulp-template');
-var imagemin = require('gulp-imagemin');
+//tasks imports
+var gulp       = require('gulp');
+var fs         = require('fs');
+var es         = require('event-stream');
+var clean      = require('gulp-clean');
+var concat     = require('gulp-concat');
+var uglify     = require('gulp-uglify');
+var template   = require('gulp-template');
+var imagemin   = require('gulp-imagemin');
 var minifyHTML = require('gulp-minify-html');
-var minifyCSS = require('gulp-minify-css');
-var connect = require('gulp-connect');
-var partials = require('gulp-partial-to-script');
+var minifyCSS  = require('gulp-minify-css');
+var connect    = require('gulp-connect');
+var partials   = require('gulp-partial-to-script');
+var xml2json   = require('gulp-xml2json');
+var rename     = require('gulp-rename');
+var jeditor    = require("gulp-json-editor");
+var jsonfile   = require("jsonfile");
+var tap        = require("gulp-tap");
+var pathUtil   = require('path');
 
+//globals project variables
 var projectGlobals = {
   vendorscripts: ['src/js/vendor/jquery-2.1.0.min.js'
   ,'src/js/vendor/jquery.cookie.js'
@@ -25,7 +34,7 @@ var projectGlobals = {
 };
 
 //default task
-gulp.task('default',['clean', 'buildVendor','buildCore','buildAppIndex']);
+gulp.task('default',['clean', 'buildVendor','buildCore','buildBoardJsonDatas','buildAppIndex']);
 
 //build vendor files
 gulp.task('buildVendor',['vendorscripts','vendorcss','copyCssImages']);
@@ -34,7 +43,7 @@ gulp.task('buildVendor',['vendorscripts','vendorcss','copyCssImages']);
 gulp.task('buildCore',['corescripts','coreCss']);
 
 //quick build
-gulp.task('quick',['coreclean','buildCore','buildAppIndex']);
+gulp.task('quick',['coreclean','buildCore','buildBoardJsonDatas','buildAppIndex']);
 
 
 // Delete the build directories
@@ -87,6 +96,31 @@ gulp.task('corescripts', function() {
     .pipe(gulp.dest('build/js'));
 });
 
+gulp.task('buildBoardJsonDatas', function () {
+
+ var indexBoard  = [];
+ var currentFile = "";
+
+ return gulp.src('src/app_data/xml/*.xml')
+        .pipe(xml2json())
+        .pipe(rename({extname: '.json'}))
+        .pipe(tap(function (file,t) {
+            currentFile = pathUtil.basename(file.path);
+        }))
+        .pipe(jeditor(function(json) {
+            indexBoard.push({
+            'title':json.board.title,
+            'description':json.board.description,
+            'boardFile':'./json/'+currentFile
+            });
+            return json; // must return JSON object.
+        }))
+        .pipe(gulp.dest('build/json'))
+        .on('end',function(){
+            jsonfile.writeFileSync('build/json/boards.json', indexBoard);
+        });
+});
+
 //build core script
 gulp.task('coreCss', function() {
   return gulp.src(projectGlobals.coreCss)
@@ -104,7 +138,9 @@ gulp.task('buildTemplates', function () {
 
 //build app index
 gulp.task('buildAppIndex', function () {
- 
+ var jsonDatasToLoad = fs.readdirSync('./build/json');
+
+ console.log(jsonDatasToLoad);
  return es.concat(
     gulp.src('./src/partials/**/*.html')
       .pipe(minifyHTML({spare: true}))
@@ -112,11 +148,12 @@ gulp.task('buildAppIndex', function () {
       .pipe(concat('templates.html'))
       .pipe(gulp.dest('./build'))
   ).on("end", function() {
-    gulp.src(['src/app_view/header.html','./build/templates.html','src/app_view/index.html','src/app_view/footer.html'])
+    gulp.src(['src/app_view/header.html','./build/jsonData.html','./build/templates.html','src/app_view/index.html','src/app_view/footer.html'])
         .pipe(concat('index.html'))
         .pipe(template({
         scripts:["./js/vendor.min.js","./js/edWui.min.js"],
-         css:["./css/vendor.min.css","./css/edWui.min.css"]
+         css:["./css/vendor.min.css","./css/edWui.min.css"],
+         jsonDatas:fs.readdirSync('./build/json')
         }))
         .pipe(minifyHTML({spare: true}))
         .pipe(gulp.dest('./build'));

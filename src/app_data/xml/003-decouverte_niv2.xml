@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<board>
+  <title>Découverte du monde niv 2</title>
+  <description>Trouve l'image et le texte associé</description>
+  <decks>
+    <deck hideunselected="false" name="Animaux I-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Autruche</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Biche</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/biche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Bison</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/bison.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Canard</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/canard.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cerf</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cerf.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chameau</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chameau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chat</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chat.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cheval</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cheval.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux I-2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chien</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chien.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chouette</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chouette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chêvre</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chevre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cochon</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cochon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Coqetpoule</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/coqetpoule.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Crabe</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/crabe.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Crocodile</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/crocodile.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cygne</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cygne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux I-3">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Dauphin</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/dauphin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ecureuil</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/ecureuil.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Elephant</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/elephant.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Girafes</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/girafes.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Gorille</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/gorille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Grenouille</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/grenouille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Hippopotame</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/hippopotame.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Kangourou</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/kangourou.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux I-4">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lapin</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/lapin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lion et lionne</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/lionetlionne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Loup</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/loup.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Mouton</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/mouton.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Oie</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/oie.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Oiseau</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/oiseau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ours</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/ours.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Panda</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/panda.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux I-5">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Perroquet</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/perroquet.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pingouin</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/pingouin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Poisson</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/poisson.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Renard</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/renard.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Serpent</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/serpent.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Singe</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/singe.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Souris</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/souris.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tigre</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/tigre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux I-6">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tortue</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/tortue.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Toucan</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/toucan.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vache</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/vache.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Zebre</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/zebre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Animaux II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Autruche</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Biche</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/biche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Bison</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/bison.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Canard</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/canard.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cerf</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cerf.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chameau</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chameau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chat</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chat.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cheval</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cheval.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Animaux II-2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chien</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chien.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chouette</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chouette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Chêvre</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/chevre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cochon</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cochon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Coq et poule</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/coqetpoule.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Crabe</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/crabe.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Crocodile</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/crocodile.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cygne</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/cygne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Animaux II-3">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Dauphin</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/dauphin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ecureuil</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/ecureuil.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Elephant</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/elephant.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Girafes</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/girafes.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Gorille</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/gorille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Grenouille</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/grenouille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Hippopotame</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/hippopotame.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Kangourou</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/kangourou.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Animaux II-4">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lapin</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/lapin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lion et lionne</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/lionetlionne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Loup</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/loup.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Mouton</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/mouton.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Oie</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/oie.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Oiseau</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/oiseau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ours</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/ours.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Panda</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/panda.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Animaux II-5">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Perroquet</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/perroquet.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pingouin</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/pingouin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Poisson</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/poisson.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Renard</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/renard.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Serpent</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/serpent.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Singe</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/singe.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Souris</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/souris.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tigre</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/tigre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Animaux II-6">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tortue</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/tortue.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Toucan</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/toucan.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vache</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/vache.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Zebre</span>]]></card>
+        <card><![CDATA[<img src="./img/animaux/zebre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Fruits I-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cerise</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/cerise.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Citron</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/citron.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Fraise</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/fraise.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Melon</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/melon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pêche</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/peche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Poire</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/poire.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Fruits I-2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Kiwi</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/kiwi.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pamplemousse</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/pamplemousse.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Fruits de la passion</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/passion-fruit.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Papaye</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/papaye.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pasteque</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/pasteque.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pomme</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/pomme.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Fruits II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cerise</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/cerise.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Citron</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/citron.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Fraise</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/fraise.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Melon</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/melon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pêche</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/peche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Poire</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/poire.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Fruits II-2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Kiwi</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/kiwi.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pamplemousse</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/pamplemousse.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Fruits de la passion</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/passion-fruit.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Papaye</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/papaye.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pasteque</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/pasteque.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pomme</span>]]></card>
+        <card><![CDATA[<img src="./img/fruits/pomme.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Couleurs I-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Rouge</span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: red; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vert</span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: green; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Jaune</span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: yellow; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Bleu</span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: blue; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Violet</span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: purple; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Noir</span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: black; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Couleurs II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Rouge</span>]]></card>
+        <card><![CDATA[<span style="background-color: red; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vert</span>]]></card>
+        <card><![CDATA[<span style="background-color: green; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Jaune</span>]]></card>
+        <card><![CDATA[<span style="background-color: yellow; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Bleu</span>]]></card>
+        <card><![CDATA[<span style="background-color: blue; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Violet</span>]]></card>
+        <card><![CDATA[<span style="background-color: purple; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Noir</span>]]></card>
+        <card><![CDATA[<span style="background-color: black; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Legumes I-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Asperge</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Aubergine</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/aubergine.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Carotte</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/carotte.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Champignons</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/champignons.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Courgette</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/courgette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Maïs</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Legumes I-2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Oignon</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/oignon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Petits pois</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/petitspois.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Poireau</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/poireau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pomme de terre</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/pommedeterre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Salade</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/salade.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tomate</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/tomate.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Legumes II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Asperge</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Aubergine</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/aubergine.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Carotte</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/carotte.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Champignons</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/champignons.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Courgette</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/courgette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Maïs</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Legumes II-2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Oignon</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/oignon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Petits pois</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/petitspois.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Poireau</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/poireau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pomme de terre</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/pommedeterre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Salade</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/salade.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tomate</span>]]></card>
+        <card><![CDATA[<img src="./img/legumes/tomate.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Meteo I-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Arc en ciel</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lune</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/lune.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Neige</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/neige.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nuage</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/nuage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Orage</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/orage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pluie</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/pluie.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Soleil nuage</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/soleil nuage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Soleil</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/soleil.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vent</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/vent.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Meteo II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Arc en ciel</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lune</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/lune.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Neige</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/neige.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nuage</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/nuage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Orage</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/orage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Pluie</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/pluie.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Soleil nuage</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/soleil nuage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Soleil</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/soleil.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vent</span>]]></card>
+        <card><![CDATA[<img src="./img/meteo/vent.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Nombres II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Un</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/1.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Deux</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/2.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Trois</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/3.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Quatre</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/4.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cinq</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/5.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Six</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/6.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Sept</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/7.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Huit</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/8.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Neuf</span>]]></card>
+        <card><![CDATA[<img src="./img/nombres/9.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Petites bêtes I-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Scorpion</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Abeille</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/abeille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Araignee</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/araignee.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Coccinelle</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/coccinelle.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Escargot</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/escargot.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Libellule</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/libellule.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Papillon</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/papillon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="true" name="Petites bêtes II-1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Scorpion</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Abeille</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/abeille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Araignee</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/araignee.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Coccinelle</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/coccinelle.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Escargot</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/escargot.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Libellule</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/libellule.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Papillon</span>]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/papillon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+  </decks>
+</board>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<board>
+  <title>Les additions</title>
+  <description>Trouve le résulat de chaque addition</description>
+  <decks>
+    <deck name="Les doubles I">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 + 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 2</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 + 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 4</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 + 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 6</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 + 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 8</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 + 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 10</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 + 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 12</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Les doubles II">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 + 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 14</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 + 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 16</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 + 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 18</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 + 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 20</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">11 + 11</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 22</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">12 + 12</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 24</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">13 + 13</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 26</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">14 + 14</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">28</span>]]></card>
+      </couple>
+    </deck>
+  </decks>
+</board>
