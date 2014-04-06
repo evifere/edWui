@@ -1,7 +1,12 @@
 (function(win, doc, edWui){
 
     win.tpl = function(view) {
+        console.log(view);
       return _.template(doc.getElementById(view + '-viewtpl').innerHTML);
+    };
+
+    win.jsonData = function(name) {
+      return doc.querySelector("[data-path='" +name + ".json']").getAttribute('src');
     };
 
     edWui.Models = {};

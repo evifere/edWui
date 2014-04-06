@@ -1,14 +1,24 @@
-<h3><a href="#">Mon premier Mémo</a></h3>
-<div title="Mémo adapté aux bébés" data-xmldeckfile="001-premiermemo.xml">
-<a title="Trouve les deux images d\'animaux identiques" style="color:#1d5987;text-decoration:none;" href="#" onClick="$.loadBoard ('001-premiermemo','0','Mon premier Mémo','Mémo adapté aux bébés','Animaux 1','Trouve les deux images d\'animaux identiques',false,true,$.__STDCSS);">Animaux 1</a>
-<br/>
-<a title="Trouve les deux images identiques" style="color:#1d5987;text-decoration:none;" href="#" onClick="$.loadBoard ('001-premiermemo','1','Mon premier Mémo','Mémo adapté aux bébés','Animaux 2','Trouve les deux images identiques',false,true,$.__STDCSS);">Animaux 2</a>
-<br/>
+
+<% 
+_.each(boards, function(board,index) {
+%>
+<h3><a href="#"><%= board.title %></a></h3>
+<div title="<%= board.description %>" data-xmldeckfile="<%= board.boardFile %>" >
+
+    <% 
+    _.each(board.decks[0].deck, function(deck,index) {
+    %>
+
+    <a title="<%= deck.$.description %>" style="color:#1d5987;text-decoration:none;" href="#" ><%= deck.$.name %></a>
+    <br/>
+    <%
+    });
+    %>
+
 </div>
-<h3><a href="#">Mon deuxieme Mémo</a></h3>
-<div title="Mémo adapté aux bébés" data-xmldeckfile="001-premiermemo.xml">
-<a title="Trouve les deux images d\'animaux identiques" style="color:#1d5987;text-decoration:none;" href="#" onClick="$.loadBoard ('001-premiermemo','0','Mon premier Mémo','Mémo adapté aux bébés','Animaux 1','Trouve les deux images d\'animaux identiques',false,true,$.__STDCSS);">Animaux 1</a>
-<br/>
-<a title="Trouve les deux images identiques" style="color:#1d5987;text-decoration:none;" href="#" onClick="$.loadBoard ('001-premiermemo','1','Mon premier Mémo','Mémo adapté aux bébés','Animaux 2','Trouve les deux images identiques',false,true,$.__STDCSS);">Animaux 2</a>
-<br/>
-</div>
+
+<%
+});
+%>
+
+

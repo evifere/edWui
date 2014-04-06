@@ -28,7 +28,9 @@
     "gulp-rename": "~1.2.0",
     "gulp-json-editor": "~2.0.2",
     "jsonfile": "~1.1.1",
-    "gulp-tap": "~0.1.1"
+    "gulp-tap": "~0.1.1",
+    "gulp-if": "0.0.5",
+    "gulp-debug": "~0.3.0"
   },
   "scripts": {
     "test": "gulp"

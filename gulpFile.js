@@ -17,6 +17,8 @@ var jeditor    = require("gulp-json-editor");
 var jsonfile   = require("jsonfile");
 var tap        = require("gulp-tap");
 var pathUtil   = require('path');
+var gulpIf     = require('gulp-if');
+var debug      = require('gulp-debug');
 
 //globals project variables
 var projectGlobals = {
@@ -111,7 +113,8 @@ gulp.task('buildBoardJsonDatas', function () {
             indexBoard.push({
             'title':json.board.title,
             'description':json.board.description,
-            'boardFile':'./json/'+currentFile
+            'boardFile':'./json/'+currentFile,
+            'decks':json.board.decks
             });
             return json; // must return JSON object.
         }))
@@ -143,18 +146,31 @@ gulp.task('buildAppIndex', function () {
  console.log(jsonDatasToLoad);
  return es.concat(
     gulp.src('./src/partials/**/*.html')
-      .pipe(minifyHTML({spare: true}))
+      /*.pipe(minifyHTML({spare: true}))*/
       .pipe(partials())
       .pipe(concat('templates.html'))
       .pipe(gulp.dest('./build'))
   ).on("end", function() {
+    var currentFile = "";
+
     gulp.src(['src/app_view/header.html','./build/jsonData.html','./build/templates.html','src/app_view/index.html','src/app_view/footer.html'])
-        .pipe(concat('index.html'))
-        .pipe(template({
-        scripts:["./js/vendor.min.js","./js/edWui.min.js"],
-         css:["./css/vendor.min.css","./css/edWui.min.css"],
-         jsonDatas:fs.readdirSync('./build/json')
+        .pipe(tap(function (file,t) {
+            currentFile = pathUtil.basename(file.path);
+            console.log(currentFile);
+
         }))
+        .pipe(gulpIf(function (){
+            console.log('TEST ' + currentFile);
+            console.log((currentFile === 'header.html' || currentFile === 'index.html' || currentFile === 'footer.html'));
+            return (currentFile === 'header.html' || currentFile === 'index.html' || currentFile === 'footer.html')
+
+        },
+            template({
+                scripts:["./js/vendor.min.js","./js/edWui.min.js"],
+                css:["./css/vendor.min.css","./css/edWui.min.css"],
+                jsonDatas:fs.readdirSync('./build/json')
+            })))
+        .pipe(concat('index.html'))
         .pipe(minifyHTML({spare: true}))
         .pipe(gulp.dest('./build'));
   },'endclean');

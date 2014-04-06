@@ -14,8 +14,12 @@
     },
 
     render: function() {
-      this.$el.html(this.template);
+      console.log('render before');
 
+      this.$el.html(this.template({'boards' : edWui.Collections.Instances.memoryBoard.toJSON()} ));
+
+console.log('render after');
+      
       menuselector = 'edWuiMenu';
 
       var active_tabindex = ($.cookie('active_tabindex_'+menuselector) === null) ? 0 : parseInt($.cookie('active_tabindex_'+menuselector),10);

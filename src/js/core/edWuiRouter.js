@@ -38,11 +38,19 @@
      memo: function() {
       this.before();
 
-      edWui.Views.Instances.MemoIndex = new edWui.Views.MemoIndex();
-      edWui.Views.Instances.MemoIndex.render();
+      $.get(jsonData('boards'),function (data, textStatus, jqXHR){
 
-      edWui.Views.Instances.MemoIndexAccordion = new edWui.Views.MemoIndexAccordion();
-      edWui.Views.Instances.MemoIndexAccordion.render();
+        edWui.Collections.memoryBoard = Backbone.Collection.extend();;
+        edWui.Collections.Instances.memoryBoard = new edWui.Collections.memoryBoard(data);
+
+        edWui.Views.Instances.MemoIndex = new edWui.Views.MemoIndex();
+        edWui.Views.Instances.MemoIndex.render();
+
+        edWui.Views.Instances.MemoIndexAccordion = new edWui.Views.MemoIndexAccordion();
+        edWui.Views.Instances.MemoIndexAccordion.render();
+
+        });
+
 
       this.after();
         }
