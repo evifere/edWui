@@ -12,6 +12,7 @@ var partials = require('gulp-partial-to-script');
 
 var projectGlobals = {
   vendorscripts: ['src/js/vendor/jquery-2.1.0.min.js'
+  ,'src/js/vendor/jquery.cookie.js'
   ,'src/js/vendor/jquery-ui-1.10.4.custom.min.js'
   ,'src/js/vendor/underscore-min.js'
   ,'src/js/vendor/backbone-min.js'],
