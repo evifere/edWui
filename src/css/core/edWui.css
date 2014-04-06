@@ -19,3 +19,25 @@ p{font-size:11px;font-family:Verdana,Times New;font-style:normal;font-weight:nor
     min-height: 28px;
     text-align: center;
 }
+
+#edWuiMenu{
+position:absolute;
+top:50px;
+left:15px;
+width:200px;
+min-height:400px;
+}
+
+#edWuiBoardMemo
+{
+position:absolute;
+top:50px;
+left:250px;
+width:880px;
+min-height:280px;
+
+}
+
+.ui-accordion .ui-accordion-content{
+overflow:hidden;
+}
