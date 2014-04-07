@@ -75,13 +75,17 @@
 
     drawBoard:function(){
 
-     var edUIOpts = {
-          data:this.currentBoardData.couple,
-          hideunselected:this.currentBoardData.$.hideunselected,
+     var edwuiOpts = {
+          data:$.booleanBridge(this.currentBoardData.couple),
+          hideunselected:$.booleanBridge(this.currentBoardData.$.hideunselected,false),
           autoconfirm:false,
-          autoshuffle:this.currentBoardData.$.autoshuffle};
-    console.log(this.$('#edWuiBoardMemo'));
-    $('#edWuiBoardMemo').edUIMemory(edUIOpts);
+          autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true)};
+
+
+    console.log(edwuiOpts);
+    console.log(this.currentBoardData.$);
+
+    $('#edWuiBoardMemo').edUIMemory(edwuiOpts);
 
     }
 
