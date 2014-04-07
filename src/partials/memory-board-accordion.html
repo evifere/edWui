@@ -9,7 +9,7 @@ _.each(boards, function(board,index) {
     _.each(board.decks[0].deck, function(deck,index) {
     %>
 
-    <a data-boardfile="<%= board.boardFile %>" data-deck="<%= index %>" title="<%= deck.$.description %>" class="deckLauncher"  ><%= deck.$.name %></a>
+    <a class="deckLauncher" data-boardfile="<%= board.boardFile %>" data-deck="<%= index %>" title="<%= deck.$.description %>"   ><%= deck.$.name %></a>
     <br/>
     <%
     });

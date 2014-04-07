@@ -38,11 +38,11 @@ min-height:280px;
 
 }
 
-.ui-accordion .ui-accordion-content{
+/*.ui-accordion .ui-accordion-content{
 overflow:hidden;
-}
+}*/
 
-.deckLauncher{
+a.deckLauncher{
 color:#1d5987;
 text-decoration:none;
 }
