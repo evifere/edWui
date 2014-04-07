@@ -8,6 +8,7 @@
     template: tpl('memory-board-accordion'),
 
     events: {
+        "click .deckLauncher":"launchMemo"
     },
 
     initialize: function() {
@@ -18,13 +19,9 @@
 
       this.$el.html(this.template({'boards' : edWui.Collections.Instances.memoryBoard.toJSON()} ));
 
-console.log('render after');
-      
       menuselector = 'edWuiMenu';
 
       var active_tabindex = ($.cookie('active_tabindex_'+menuselector) === null) ? 0 : parseInt($.cookie('active_tabindex_'+menuselector),10);
-
-     
 
      this.$el.accordion({'autoHeight':false,
                 'clearStyle': true,
@@ -40,10 +37,58 @@ console.log('render after');
       }});
 
       console.log(active_tabindex);
-      console.log( this.$el.html());
 
       return this;
+    },
+
+    launchMemo:function(ev)
+    {
+        console.log(ev);
+        var datas = this.$(ev.currentTarget).data();
+        console.log(datas);
+
+        this.loadBoard(datas.boardfile,datas.deck)
+    },
+
+    loadBoard:function(jsonUrl,deckIndex){
+    var _self = this;
+
+    $.ajax({
+      url: jsonUrl ,
+      type:'GET',
+      async:false,
+      context: document.body,
+      dataType:'json',
+      crossDomain:true,
+      success: function(data){
+        console.log(data);
+       _self.currentBoardData = data['board']['decks'][0]['deck'][deckIndex];//jQuery.parseJSON(data);
+
+       _self.drawBoard();
+       },
+      error: function(xhr, ajaxOptions, thrownError){
+       console.error("Erreur json", "Status " +xhr.status + " thrownError : " + thrownError + "jsonUrl " + jsonUrl);
+                }
+     });
+
+    },
+
+    drawBoard:function(){
+
+     var edUIOpts = {
+          data:this.currentBoardData.couple,
+          hideunselected:this.currentBoardData.$.hideunselected,
+          autoconfirm:false,
+          autoshuffle:this.currentBoardData.$.autoshuffle};
+    console.log(this.$('#edWuiBoardMemo'));
+    $('#edWuiBoardMemo').edUIMemory(edUIOpts);
+
     }
+
+
+
+
+
   });
 
   /**

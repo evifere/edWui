@@ -41,3 +41,8 @@ min-height:280px;
 .ui-accordion .ui-accordion-content{
 overflow:hidden;
 }
+
+.deckLauncher{
+color:#1d5987;
+text-decoration:none;
+}

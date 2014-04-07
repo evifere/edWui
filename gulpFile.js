@@ -27,7 +27,13 @@ var projectGlobals = {
   ,'src/js/vendor/jquery-ui-1.10.4.custom.min.js'
   ,'src/js/vendor/underscore-min.js'
   ,'src/js/vendor/backbone-min.js'],
-  coreScripts: ['src/js/core/edWuiBootStrap.js','src/views/*.js','src/js/core/edWuiRouter.js','src/js/core/edWui.js'],
+  coreScripts: ['src/js/core/edWuiBootStrap.js'
+  ,'src/views/*.js'
+  ,'src/js/core/edWuiTools.js'
+  ,'src/js/core/edWuiMemoryWidget.js'
+  ,'src/js/core/edWuiLoadData.js'
+  ,'src/js/core/edWuiRouter.js'
+  ,'src/js/core/edWui.js'],
   coreCss: ['src/css/core/*.css'],
   buildPathToClean: ['build/js/*.js','build/css/*.css','build/css/images/*.*','build/*.html'],
   coreBuildPathToClean: ['build/js/edWui.min.js','build/css/edWui.min.css','build/*.html'],
@@ -113,7 +119,7 @@ gulp.task('buildBoardJsonDatas', function () {
             indexBoard.push({
             'title':json.board.title,
             'description':json.board.description,
-            'boardFile':'./json/'+currentFile,
+            'boardFile':'/json/'+currentFile,
             'decks':json.board.decks
             });
             return json; // must return JSON object.
