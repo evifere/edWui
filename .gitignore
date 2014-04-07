@@ -22,6 +22,7 @@ build/Release
 build/js/*
 build/css/*
 build/json/*
+build/img/*
 build/index.html
 build/templates.html
 
