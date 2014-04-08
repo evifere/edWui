@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<board>
+  <title>Comparaison d'écriture</title>
+  <description>Trouve le prénom en minuscule et celui en majuscule</description>
+  <decks>
+    <deck name="Les prénoms">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Manon</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MANON</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Julien</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">JULIEN</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nicolas</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">NICOLAS</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lucile</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">LUCILE</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Samuel</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">SAMUEL</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Marie-Line</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MARIE-LINE</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Les chiffres en lettres">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Un</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">UN</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Deux</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">DEUX</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Trois</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">TROIS</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Quatre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">QUATRE</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Cinq</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">CINQ</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Six</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">SIX</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Sept</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">SEPT</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Huit</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">HUIT</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Neuf</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">NEUF</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Les jours de la semaine">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Lundi</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">LUNDI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Mardi</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MARDI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Mercredi</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MERCREDI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Jeudi</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">JEUDI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vendredi</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">VENDREDI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Samedi</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">SAMEDI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Dimanche</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">DIMANCHE</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Les mois de l'année">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Janvier</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">JANVIER</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Février</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">FEVRIER</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Mars</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MARS</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Avril</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">AVRIL</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Mai</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MAI</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Juin</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">JUIN</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Juillet</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">JUILLET</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Aôut</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">AOUT</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Septembre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">SEPTEMBRE</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Octobre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">OCTOBRE</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Novembre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">NOVEMBRE</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Décembre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">DECEMBRE</span>]]></card>
+      </couple>
+    </deck>
+  </decks>
+</board>

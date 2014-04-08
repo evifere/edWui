@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<board>
+  <title>Les conjugaisons</title>
+  <description>Trouve le pronom et le verbe conjugué associé</description>
+  <decks>
+    <deck name="Verbe être au présent">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Je</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">suis</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tu</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">es</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Il</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">es</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">sommes</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">êtes</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ils</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">sont</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Verbe avoir au présent">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">J</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">ai</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tu</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">as</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Il</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">a</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">avons</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">avez</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ils</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">ont</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Verbe aller au présent">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Je</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">vais</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tu</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">vas</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Il</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">va</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">allons</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">allez</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ils</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">vont</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="Verbe manger au présent">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Je</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">mange</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Tu</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">manges</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Il</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">mange</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Nous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">mangeons</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Vous</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">mangez</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ils</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">mangent</span>]]></card>
+      </couple>
+    </deck>
+  </decks>
+</board>
