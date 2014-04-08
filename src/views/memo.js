@@ -15,7 +15,6 @@
     },
 
     render: function() {
-      console.log('render before');
 
       this.$el.html(this.template({'boards' : edWui.Collections.Instances.memoryBoard.toJSON()} ));
 
@@ -36,16 +35,12 @@
                 console.log($(this).find('div:eq('+iSection+')').data('xmldeckfile'));
       }});
 
-      console.log(active_tabindex);
-
       return this;
     },
 
     launchMemo:function(ev)
     {
-        console.log(ev);
         var datas = this.$(ev.currentTarget).data();
-        console.log(datas);
 
         this.loadBoard(datas.boardfile,datas.deck)
     },
@@ -61,7 +56,6 @@
       dataType:'json',
       crossDomain:true,
       success: function(data){
-        console.log(data);
        _self.currentBoardData = data['board']['decks'][0]['deck'][deckIndex];//jQuery.parseJSON(data);
 
        _self.drawBoard();
@@ -80,10 +74,6 @@
           hideunselected:$.booleanBridge(this.currentBoardData.$.hideunselected,false),
           autoconfirm:false,
           autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true)};
-
-
-    console.log(edwuiOpts);
-    console.log(this.currentBoardData.$);
 
     $('#edWuiBoardMemo').edUIMemory(edwuiOpts);
 

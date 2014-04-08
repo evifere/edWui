@@ -27,7 +27,6 @@
     },
 
     gotoMemoryBoard:function(){
-    console.log("gotoMemoryBoard");
     edWui.AppRouter.Instance.navigate("memo", {trigger: true});
     }
 

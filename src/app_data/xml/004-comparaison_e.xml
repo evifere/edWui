@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <board>
-  <title>Comparaison d'écriture</title>
-  <description>Trouve le prénom en minuscule et celui en majuscule</description>
+  <title>Comparaison d'Ã©criture</title>
+  <description>Trouve le prÃ©nom en minuscule et celui en majuscule</description>
   <decks>
-    <deck name="Les prénoms">
+    <deck name="Les prÃ©noms">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Manon</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">MANON</span>]]></card>
@@ -97,13 +97,13 @@
         <card><![CDATA[<span style="vertical-align: middle; ">DIMANCHE</span>]]></card>
       </couple>
     </deck>
-    <deck name="Les mois de l'année">
+    <deck name="Les mois de l'annÃ©e">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Janvier</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">JANVIER</span>]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Février</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">FÃ©vrier</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">FEVRIER</span>]]></card>
       </couple>
       <couple>
@@ -127,7 +127,7 @@
         <card><![CDATA[<span style="vertical-align: middle; ">JUILLET</span>]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Aôut</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">AÃ´ut</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">AOUT</span>]]></card>
       </couple>
       <couple>
@@ -143,7 +143,7 @@
         <card><![CDATA[<span style="vertical-align: middle; ">NOVEMBRE</span>]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Décembre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">DÃ©cembre</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">DECEMBRE</span>]]></card>
       </couple>
     </deck>
