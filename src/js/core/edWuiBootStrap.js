@@ -1,7 +1,6 @@
 (function(win, doc, edWui){
 
     win.tpl = function(view) {
-        console.log(view);
       return _.template(doc.getElementById(view + '-viewtpl').innerHTML);
     };
 
