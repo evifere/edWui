@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <board>
-  <title>Découverte du monde niv 2</title>
-  <description>Trouve l'image et le texte associé</description>
+  <title>DÃ©couverte du monde niv 2</title>
+  <description>Trouve l'image et le texte associÃ©</description>
   <decks>
     <deck hideunselected="false" name="Animaux I-1">
       <couple>
@@ -47,7 +47,7 @@
         <card><![CDATA[<img src="./img/animaux/chouette.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Chêvre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">ChÃªvre</span>]]></card>
         <card><![CDATA[<img src="./img/animaux/chevre.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
@@ -235,7 +235,7 @@
         <card><![CDATA[<img src="./img/animaux/chouette.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Chêvre</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">ChÃªvre</span>]]></card>
         <card><![CDATA[<img src="./img/animaux/chevre.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
@@ -397,7 +397,7 @@
         <card><![CDATA[<img src="./img/fruits/melon.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Pêche</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">PÃªche</span>]]></card>
         <card><![CDATA[<img src="./img/fruits/peche.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
@@ -449,7 +449,7 @@
         <card><![CDATA[<img src="./img/fruits/melon.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Pêche</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">PÃªche</span>]]></card>
         <card><![CDATA[<img src="./img/fruits/peche.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
@@ -557,7 +557,7 @@
         <card><![CDATA[<img src="./img/legumes/courgette.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Maïs</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MaÃ¯s</span>]]></card>
         <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
@@ -609,7 +609,7 @@
         <card><![CDATA[<img src="./img/legumes/courgette.png" style="vertical-align: middle; ">]]></card>
       </couple>
       <couple>
-        <card><![CDATA[<span style="vertical-align: middle; ">Maïs</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">MaÃ¯s</span>]]></card>
         <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
@@ -753,7 +753,7 @@
         <card><![CDATA[<img src="./img/nombres/9.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Petites bêtes I-1">
+    <deck hideunselected="false" name="Petites bÃªtes I-1">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Scorpion</span>]]></card>
         <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
@@ -783,7 +783,7 @@
         <card><![CDATA[<img src="./img/ptitesbetes/papillon.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="true" name="Petites bêtes II-1">
+    <deck hideunselected="true" name="Petites bÃªtes II-1">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Scorpion</span>]]></card>
         <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>

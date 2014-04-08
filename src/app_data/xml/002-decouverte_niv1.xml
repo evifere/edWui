@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <board>
-  <title>Découverte du monde niv 1</title>
+  <title>DÃ©couverte du monde niv 1</title>
   <description>Trouve les deux images identiques</description>
   <decks>
     <deck hideunselected="true" name="Animaux 1">
@@ -299,7 +299,7 @@
         <card><![CDATA[<img src="./img/instrument/violon.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="true" name="Météo">
+    <deck hideunselected="true" name="MÃ©tÃ©o">
       <couple>
         <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
@@ -383,7 +383,7 @@
         <card><![CDATA[<img src="./img/saison/vetementhiver.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="true" name="Légumes 1">
+    <deck hideunselected="true" name="LÃ©gumes 1">
       <couple>
         <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
@@ -409,7 +409,7 @@
         <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="true" name="Légumes 2">
+    <deck hideunselected="true" name="LÃ©gumes 2">
       <couple>
         <card><![CDATA[<img src="./img/legumes/oignon.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/legumes/oignon.png" style="vertical-align: middle; ">]]></card>
@@ -473,7 +473,7 @@
         <card><![CDATA[<img src="./img/nombres/9.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="true" name="Petites bêtes">
+    <deck hideunselected="true" name="Petites bÃªtes">
       <couple>
         <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <board>
   <title>Les conjugaisons</title>
-  <description>Trouve le pronom et le verbe conjugué associé</description>
+  <description>Trouve le pronom et le verbe conjuguÃ© associÃ©</description>
   <decks>
-    <deck name="Verbe être au présent">
+    <deck name="Verbe Ãªtre au prÃ©sent">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Je</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">suis</span>]]></card>
@@ -22,14 +22,14 @@
       </couple>
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Vous</span>]]></card>
-        <card><![CDATA[<span style="vertical-align: middle; ">êtes</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ãªtes</span>]]></card>
       </couple>
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Ils</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">sont</span>]]></card>
       </couple>
     </deck>
-    <deck name="Verbe avoir au présent">
+    <deck name="Verbe avoir au prÃ©sent">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">J</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">ai</span>]]></card>
@@ -55,7 +55,7 @@
         <card><![CDATA[<span style="vertical-align: middle; ">ont</span>]]></card>
       </couple>
     </deck>
-    <deck name="Verbe aller au présent">
+    <deck name="Verbe aller au prÃ©sent">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Je</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">vais</span>]]></card>
@@ -81,7 +81,7 @@
         <card><![CDATA[<span style="vertical-align: middle; ">vont</span>]]></card>
       </couple>
     </deck>
-    <deck name="Verbe manger au présent">
+    <deck name="Verbe manger au prÃ©sent">
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Je</span>]]></card>
         <card><![CDATA[<span style="vertical-align: middle; ">mange</span>]]></card>
