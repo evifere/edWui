@@ -19,6 +19,7 @@ var tap        = require("gulp-tap");
 var pathUtil   = require('path');
 var gulpIf     = require('gulp-if');
 var debug      = require('gulp-debug');
+var imagemin   = require('gulp-imagemin');
 
 //globals project variables
 var projectGlobals = {
@@ -144,6 +145,16 @@ gulp.task('buildTemplates', function () {
  gulp.src('src/partials/*.html')
     .pipe(partials());
 });
+
+
+// Copy all static images
+gulp.task('copyImg', function() {
+ return gulp.src('img/**')
+    // Pass in options to the task
+    .pipe(imagemin({optimizationLevel: 5}))
+    .pipe(gulp.dest('build/img'));
+});
+
 
 //build app index
 gulp.task('buildAppIndex', function () {
