@@ -21,6 +21,7 @@
     this.autoconfirm = options.autoconfirm;
     this.autoshuffle = options.autoshuffle;*/
     this.memoryOpts = options;
+    this.currentDataGroup = -1;
     },
 
     render: function() {
@@ -37,7 +38,11 @@
     evt.stopPropagation();
     console.log(evt.currentTarget);
     console.log('before toggleState');
-    if(this.toggleState($(evt.currentTarget),this.memoryOpts.hideunselected,this.memoryOpts.maxSelected) === true)
+    
+    $couple = $(evt.currentTarget);
+    this.currentDataGroup = $couple.data('group');
+
+    if(this.toggleState($couple,this.memoryOpts.hideunselected,this.memoryOpts.maxSelected) === true)
         {
          if (this.$('.cardselected').length == this.memoryOpts.maxSelected){
                     this.onCardsSelected();
@@ -100,9 +105,29 @@
 
     onControlCardGroup:function()
     {
-    console.log('onControlCardGroup');
+    var ok = true;
+    var g  = this.currentDataGroup;
+
+    this.$('.cardselected').each(function (){
+       ok = ok && $(this).hasClass(g);
+       });
+
+    if (ok === true)
+      this.onControlCardMatch();
+    else
+      this.onControlCardNotMatch();
+
     },
 
+    onControlCardMatch:function ()
+    {
+    console.log('onControlCardMatch');
+    },
+
+    onControlCardNotMatch:function ()
+    {
+    console.log('onControlCardNotMatch');
+    },
 
     /**
      * [toggleState switch between un/hightlight mode and trigger couple selection
