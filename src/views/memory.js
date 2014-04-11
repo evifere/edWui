@@ -12,6 +12,7 @@
     template: tpl('memory-deck'),
 
     events: {
+    "click .edWuiNotEditable":"clickOnCard"
     },
 
     initialize: function(options) {
@@ -24,8 +25,19 @@
 
     render: function() {
       this.$el.html(this.template(this.memoryOpts));
+
+      if(this.memoryOpts.autoshuffle === true)
+        this.$('div').shuffle();
+
       return this;
     }
+    ,
+    clickOnCard:function(evt)
+    {
+    evt.stopPropagation();
+    console.log(evt.currentTarget);
+    }
+
   });
 
 
