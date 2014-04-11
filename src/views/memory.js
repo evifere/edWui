@@ -39,10 +39,78 @@
     console.log('before toggleState');
     if(this.toggleState($(evt.currentTarget),this.memoryOpts.hideunselected,this.memoryOpts.maxSelected) === true)
         {
-        console.log('verify the number of cards remaining');
+         if (this.$('.cardselected').length == this.memoryOpts.maxSelected){
+                    this.onCardsSelected();
+         }
+        
         }
 
     },
+    /**
+     * [onCardsSelected process what to do when the number of card to select is reached
+     **/
+    onCardsSelected:function()
+    {
+    if (this.memoryOpts.autoconfirm === false) 
+       {
+       this.onConfirmSelection();   
+       return true;
+       }
+       
+     this.onControlCardGroup();
+    },
+
+    onConfirmSelection:function()
+    {
+    console.log('onConfirmSelection');
+    var _self = this;
+    var dlgId = this.$el.attr('id');
+
+    console.log(dlgId);
+
+    $('#dlgmsg_' + dlgId).html('');
+
+    this.$('.cardselected').each(function (){
+       $('#dlgmsg_' + dlgId).append($(this).clone().removeClass('cardselected'));
+       });
+
+     $('#dlgmsg_' + dlgId)
+      .attr('title','Tu es sûr ?')
+      .dialog({
+        modal:true,
+        minHeight: 130,
+        minWidth: 320,
+        buttons:
+                { "Oui :)": function() { 
+                          _self.onControlCardGroup();
+                          $(this).dialog("close"); 
+                      }
+                  ,
+                  "Non :(": function() { 
+                  $(this).html('');
+                  _self.$('.cardselected').each(function (){
+                      _self.toggleState($(this),_self.memoryOpts.hideunselected,_self.memoryOpts.maxSelected);
+                     });
+
+                  $(this).dialog("close"); }
+                }
+              });//fin dialog
+
+    },
+
+    onControlCardGroup:function()
+    {
+    console.log('onControlCardGroup');
+    },
+
+
+    /**
+     * [toggleState switch between un/hightlight mode and trigger couple selection
+     * @param  {[type]} $card          [description]
+     * @param  {[type]} hideunselected [description]
+     * @param  {[type]} maxselected    [description]
+     * @return {[type]}                [description]
+     */
     toggleState:function ($card,hideunselected,maxselected)
     {
         console.log($card);
