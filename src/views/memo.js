@@ -74,7 +74,8 @@
           hideunselected:$.booleanBridge(this.currentBoardData.$.hideunselected,false),
           autoconfirm:false,
           autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true),
-          editable:false
+          editable:false,
+          maxSelected:2
       };
 
    // $('#edWuiBoardMemo').edUIMemory(edWuiOpts);

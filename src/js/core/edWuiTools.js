@@ -153,7 +153,7 @@ function ()
  
   }; 
   
-  $.fn.createTextCard = function (idcouple,val,cssCard,hideunselected,editable)
+  /*$.fn.createTextCard = function (idcouple,val,cssCard,hideunselected,editable)
   {
   $val = $(val); 
 
@@ -180,5 +180,5 @@ function ()
                );
  
   }; 
-  
+  */
  });//fin ready
