@@ -69,13 +69,20 @@
 
     drawBoard:function(){
 
-     var edwuiOpts = {
+     var edWuiOpts = {
           data:$.booleanBridge(this.currentBoardData.couple),
           hideunselected:$.booleanBridge(this.currentBoardData.$.hideunselected,false),
           autoconfirm:false,
-          autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true)};
+          autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true),
+          editable:false
+      };
 
-    $('#edWuiBoardMemo').edUIMemory(edwuiOpts);
+   // $('#edWuiBoardMemo').edUIMemory(edWuiOpts);
+    edWuiOpts.couples = edWuiOpts.data;
+    console.log(edWuiOpts);
+
+    edWui.Views.Instances.Memory = new edWui.Views.Memory(edWuiOpts);
+    edWui.Views.Instances.Memory.render();
 
     }
 
