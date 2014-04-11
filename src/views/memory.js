@@ -16,11 +16,20 @@
     },
 
     initialize: function(options) {
-    /*this.couples = options.couples;
-    this.hideunselected = options.hideunselected;
-    this.autoconfirm = options.autoconfirm;
-    this.autoshuffle = options.autoshuffle;*/
+
+    var _self = this;
     this.memoryOpts = options;
+    this.iCards = 0;
+
+    this.memoryOpts.couples.forEach(function(cards){
+    _self.iCards += cards.card.length;
+    });
+
+    console.log('**********');
+    console.log(_self.iCards);
+
+    console.log('**********');
+
     this.currentDataGroup = -1;
     },
 
@@ -121,12 +130,45 @@
 
     onControlCardMatch:function ()
     {
-    console.log('onControlCardMatch');
+
+    this.$('.cardselected').each(function (){
+       $card = $(this);
+       $card.removeClass('ui-state-highlight');
+       $card.removeClass('cardselected');
+       $card.addClass('cardfound');
+       $card.css('visibility', 'hidden');
+       });
+
+        if (this.iCards  === this.$('.cardfound').length)
+            this.onBoardEmpty();
+
+    },
+
+    onBoardEmpty:function()
+    {
+    console.log('onBoardEmpty');
     },
 
     onControlCardNotMatch:function ()
     {
-    console.log('onControlCardNotMatch');
+    var _self = this;
+
+    $('#dlgmsgerr_' + this.$el.attr('id'))
+      .attr('title','C\'est faux !')
+      .dialog({
+        modal:true,
+        buttons:
+                { "Je retente :)": function() { 
+
+                  _self.$('.cardselected').each(function (){
+                 _self.toggleState($(this),_self.memoryOpts.hideunselected,_self.memoryOpts.maxSelected);
+                     });
+
+                 $(this).dialog("close"); } 
+
+                }
+              });//fin dialog
+
     },
 
     /**
