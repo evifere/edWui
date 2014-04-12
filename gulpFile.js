@@ -31,7 +31,6 @@ var projectGlobals = {
   coreScripts: ['src/js/core/edWuiBootStrap.js'
   ,'src/views/*.js'
   ,'src/js/core/edWuiTools.js'
-  ,'src/js/core/edWuiMemoryWidget.js'
   ,'src/js/core/edWuiLoadData.js'
   ,'src/js/core/edWuiRouter.js'
   ,'src/js/core/edWui.js'],
