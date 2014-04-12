@@ -154,12 +154,23 @@
     },
 
     /**
-     * [onBoardEmpty description]
-     * @return {[type]} [description]
+     * [onBoardEmpty display winning dialog
      */
     onBoardEmpty:function()
     {
-    console.log('onBoardEmpty');
+    $('#dlgmsgend_' + this.$el.attr('id'))
+      .attr('title','Bravo tu as gagné !! \\0/ ')
+      .dialog({
+        modal:true,
+            minHeight: 130,
+            minWidth: 320,
+        buttons:
+                {
+                  "Super :)": function() { 
+                     //   myUI._self._reload();
+                          $(this).dialog("close"); }
+                }
+              });//fin dialog
     },
 
     /**

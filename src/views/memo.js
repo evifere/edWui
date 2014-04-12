@@ -78,7 +78,6 @@
           maxSelected:2
       };
 
-   // $('#edWuiBoardMemo').edUIMemory(edWuiOpts);
     edWuiOpts.couples = edWuiOpts.data;
     console.log(edWuiOpts);
 
