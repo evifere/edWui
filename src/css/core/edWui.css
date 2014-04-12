@@ -28,14 +28,21 @@ width:200px;
 min-height:400px;
 }
 
-#edWuiBoardMemo
-{
+
+.memoryFieldset{
+
 position:absolute;
 top:50px;
 left:250px;
 width:880px;
 min-height:280px;
 
+}
+
+.memoryFieldset legend{
+width: 50%;
+min-height: 18px;
+}
 }
 
 div.edWuiCard{

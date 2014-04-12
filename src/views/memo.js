@@ -73,7 +73,10 @@
       crossDomain:true,
       success: function(data){
        _self.currentBoardData = data['board']['decks'][0]['deck'][deckIndex];
+       _self.currentBoardTitle = data['board'].title;
+       _self.currentBoardDescription = data['board'].description;
 
+       _self.updateMemoryTitle();
        _self.drawBoard();
        },
       error: function(xhr, ajaxOptions, thrownError){
@@ -83,6 +86,16 @@
 
     },
 
+    updateMemoryTitle:function()
+    {
+    $('#edWuiBoardTitle').text( this.currentBoardTitle + ' (' + this.currentBoardDescription + ')');
+    $('#edWuiDeckName').text( this.currentBoardData.$.name + ':' + this.currentBoardData.$.description);
+    console.log(this.currentBoardData.$);
+    },
+
+    /**
+     * drawBoard display memory board
+     */
     drawBoard:function(){
 
      var edWuiOpts = {
@@ -137,7 +150,7 @@
      */
     defaultBoard:function()
     {
-    this.$('#edWuiBoardMemo').html(this.defaultEmptyMemoryBoard());
+    this.$('#edWuiDeckName').html(this.defaultEmptyMemoryBoard());
     }
   });
 
