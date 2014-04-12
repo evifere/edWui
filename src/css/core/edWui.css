@@ -28,8 +28,9 @@ width:200px;
 min-height:400px;
 }
 
-#edWuiBoardMemo
-{
+
+.memoryFieldset{
+
 position:absolute;
 top:50px;
 left:250px;
@@ -38,9 +39,30 @@ min-height:280px;
 
 }
 
-/*.ui-accordion .ui-accordion-content{
-overflow:hidden;
-}*/
+.memoryFieldset legend{
+width: 50%;
+min-height: 18px;
+}
+}
+
+div.edWuiCard{
+position:relative;
+width:128px;
+min-height:128px;
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+margin:5px;
+line-height:400%;
+border-width:4px;
+}
+
+.edWuiCardHide{
+    display: none;
+}
+.edWuiCardShow{
+    display: block;
+}
 
 a.deckLauncher{
 color:#1d5987;

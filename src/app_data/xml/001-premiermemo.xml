@@ -3,7 +3,7 @@
   <title>Mon premier Mémo</title>
   <description>Mémo adapté aux bébés</description>
   <decks>
-    <deck hideunselected="false" name="Animaux 1" description="Trouve les deux images d'animaux identiques">
+    <deck hideunselected="false" name="Animaux 1" description="Trouves les deux images d'animaux identiques">
       <couple>
         <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
@@ -37,7 +37,7 @@
         <card><![CDATA[<img src="./img/animaux/cheval.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Animaux 2" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Animaux 2" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/animaux/chien.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/animaux/chien.png" style="vertical-align: middle; ">]]></card>
@@ -71,7 +71,7 @@
         <card><![CDATA[<img src="./img/animaux/cygne.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Animaux 3" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Animaux 3" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/animaux/dauphin.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/animaux/dauphin.png" style="vertical-align: middle; ">]]></card>
@@ -105,7 +105,7 @@
         <card><![CDATA[<img src="./img/animaux/kangourou.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Animaux 4" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Animaux 4" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/animaux/lapin.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/animaux/lapin.png" style="vertical-align: middle; ">]]></card>
@@ -139,7 +139,7 @@
         <card><![CDATA[<img src="./img/animaux/panda.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Animaux 5" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Animaux 5" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/animaux/perroquet.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/animaux/perroquet.png" style="vertical-align: middle; ">]]></card>
@@ -173,7 +173,7 @@
         <card><![CDATA[<img src="./img/animaux/tigre.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Animaux 6" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Animaux 6" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/animaux/tortue.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/animaux/tortue.png" style="vertical-align: middle; ">]]></card>
@@ -191,7 +191,7 @@
         <card><![CDATA[<img src="./img/animaux/zebre.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Couleurs" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Couleurs" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<span style="display: block; background-color: red; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
         <card><![CDATA[<span style="display: block; background-color: red; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
@@ -217,7 +217,7 @@
         <card><![CDATA[<span style="display: block; background-color: black; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Fruits" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Fruits" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/fruits/cerise.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/fruits/cerise.png" style="vertical-align: middle; ">]]></card>
@@ -299,7 +299,7 @@
         <card><![CDATA[<img src="./img/instrument/violon.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Météo" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Météo" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
@@ -337,7 +337,7 @@
         <card><![CDATA[<img src="./img/meteo/vent.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Saisons" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Saisons" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/saison/arbreautome.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/saison/arbreautome.png" style="vertical-align: middle; ">]]></card>
@@ -383,7 +383,7 @@
         <card><![CDATA[<img src="./img/saison/vetementhiver.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Légumes 1" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Légumes 1" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
@@ -435,7 +435,7 @@
         <card><![CDATA[<img src="./img/legumes/tomate.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Nombres" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Nombres" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/nombres/1.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/nombres/1.png" style="vertical-align: middle; ">]]></card>
@@ -473,7 +473,7 @@
         <card><![CDATA[<img src="./img/nombres/9.png" style="vertical-align: middle; ">]]></card>
       </couple>
     </deck>
-    <deck hideunselected="false" name="Petites bêtes" description="Trouve les deux images identiques">
+    <deck hideunselected="false" name="Petites bêtes" description="Trouves les deux images identiques">
       <couple>
         <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
         <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <board>
   <title>Découverte du monde niv 1</title>
-  <description>Trouve les deux images identiques</description>
+  <description>Trouves les deux images identiques</description>
   <decks>
     <deck hideunselected="true" name="Animaux 1">
       <couple>

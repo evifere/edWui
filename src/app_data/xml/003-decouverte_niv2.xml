@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <board>
   <title>Découverte du monde niv 2</title>
-  <description>Trouve l'image et le texte associé</description>
+  <description>Trouves l'image et le texte associé</description>
   <decks>
     <deck hideunselected="false" name="Animaux I-1">
       <couple>

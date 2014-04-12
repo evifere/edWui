@@ -31,7 +31,6 @@ var projectGlobals = {
   coreScripts: ['src/js/core/edWuiBootStrap.js'
   ,'src/views/*.js'
   ,'src/js/core/edWuiTools.js'
-  ,'src/js/core/edWuiMemoryWidget.js'
   ,'src/js/core/edWuiLoadData.js'
   ,'src/js/core/edWuiRouter.js'
   ,'src/js/core/edWui.js'],
@@ -159,8 +158,11 @@ gulp.task('copyImg', function() {
 //build app index
 gulp.task('buildAppIndex', function () {
  var jsonDatasToLoad = fs.readdirSync('./build/json');
-
+ 
+ if( jsonDatasToLoad[0] === '.gitkeep')
+    delete jsonDatasToLoad[0];
  console.log(jsonDatasToLoad);
+  console.log('----');
  return es.concat(
     gulp.src('./src/partials/**/*.html')
       /*.pipe(minifyHTML({spare: true}))*/

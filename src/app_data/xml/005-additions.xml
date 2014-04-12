@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <board>
   <title>Les additions</title>
-  <description>Trouve le résulat de chaque addition</description>
+  <description>Trouves le résulat de chaque addition</description>
   <decks>
     <deck name="Les doubles I">
       <couple>

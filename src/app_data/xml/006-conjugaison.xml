@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <board>
   <title>Les conjugaisons</title>
-  <description>Trouve le pronom et le verbe conjugué associé</description>
+  <description>Trouves le pronom et le verbe conjugué associé</description>
   <decks>
     <deck name="Verbe être au présent">
       <couple>
@@ -14,7 +14,7 @@
       </couple>
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Il</span>]]></card>
-        <card><![CDATA[<span style="vertical-align: middle; ">es</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">est</span>]]></card>
       </couple>
       <couple>
         <card><![CDATA[<span style="vertical-align: middle; ">Nous</span>]]></card>

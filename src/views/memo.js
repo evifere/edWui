@@ -1,6 +1,10 @@
 // http://backbonejs.org/#View
 (function(win, doc, edWui){
 
+  /**
+   * MemoIndexAccordion View
+   * @type Backbone.View
+   */
   edWui.Views.MemoIndexAccordion = Backbone.View.extend({
 
     el: '#edWuiMenu',
@@ -14,13 +18,16 @@
     initialize: function() {
     },
 
+    /**
+     * [render display accordion menu with memory launcher and the empty board default message
+     */
     render: function() {
 
-      this.$el.html(this.template({'boards' : edWui.Collections.Instances.memoryBoard.toJSON()} ));
+    this.$el.html(this.template({'boards' : edWui.Collections.Instances.memoryBoard.toJSON()} ));
 
-      menuselector = 'edWuiMenu';
+    menuselector = 'edWuiMenu';
 
-      var active_tabindex = ($.cookie('active_tabindex_'+menuselector) === null) ? 0 : parseInt($.cookie('active_tabindex_'+menuselector),10);
+    var active_tabindex = ($.cookie('active_tabindex_'+menuselector) === null) ? 0 : parseInt($.cookie('active_tabindex_'+menuselector),10);
 
      this.$el.accordion({'autoHeight':false,
                 'clearStyle': true,
@@ -32,12 +39,15 @@
 
                 $.cookie('active_tabindex_'+menuselector, iSection);
 
-                console.log($(this).find('div:eq('+iSection+')').data('xmldeckfile'));
       }});
 
       return this;
     },
 
+    /**
+     * [launchMemo load memory config and display it in ajax all back
+     * @param   ev  click event
+     */
     launchMemo:function(ev)
     {
         var datas = this.$(ev.currentTarget).data();
@@ -45,6 +55,11 @@
         this.loadBoard(datas.boardfile,datas.deck)
     },
 
+    /**
+     * [loadBoard load json config for the selected board
+     * @param  string jsonUrl   url of the json config file
+     * @param  boolean deckIndex index of the deck
+     */
     loadBoard:function(jsonUrl,deckIndex){
     var _self = this;
 
@@ -56,8 +71,11 @@
       dataType:'json',
       crossDomain:true,
       success: function(data){
-       _self.currentBoardData = data['board']['decks'][0]['deck'][deckIndex];//jQuery.parseJSON(data);
+       _self.currentBoardData = data['board']['decks'][0]['deck'][deckIndex];
+       _self.currentBoardTitle = data['board'].title;
+       _self.currentBoardDescription = data['board'].description;
 
+       _self.updateMemoryTitle();
        _self.drawBoard();
        },
       error: function(xhr, ajaxOptions, thrownError){
@@ -67,27 +85,44 @@
 
     },
 
+    updateMemoryTitle:function()
+    {
+    var szDeckName = this.currentBoardData.$.name;
+
+    if(this.currentBoardData.$.description)
+        szDeckName += ':' + this.currentBoardData.$.description;
+
+    $('#edWuiBoardTitle').text( this.currentBoardTitle + ' (' + this.currentBoardDescription + ')');
+
+    $('#edWuiDeckName').text(szDeckName);
+    },
+
+    /**
+     * drawBoard display memory board
+     */
     drawBoard:function(){
 
-     var edwuiOpts = {
+     var edWuiOpts = {
           data:$.booleanBridge(this.currentBoardData.couple),
           hideunselected:$.booleanBridge(this.currentBoardData.$.hideunselected,false),
           autoconfirm:false,
-          autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true)};
+          autoshuffle:$.booleanBridge(this.currentBoardData.$.autoshuffle,true),
+          editable:false,
+          maxSelected:2
+      };
 
-    $('#edWuiBoardMemo').edUIMemory(edwuiOpts);
+    edWuiOpts.couples = edWuiOpts.data;
+
+    edWui.Views.Instances.Memory = new edWui.Views.Memory(edWuiOpts);
+    edWui.Views.Instances.Memory.render();
 
     }
-
-
-
-
 
   });
 
   /**
-   * Root View
-   * @type {object}
+   * MemoIndex View
+   * @type Backbone.View
    */
   edWui.Views.MemoIndex = Backbone.View.extend({
 
@@ -96,14 +131,30 @@
     template: tpl('memory-board'),
 
     events: {
+      "defaultBoard #edWuiBoardMemo":"defaultBoard"
     },
 
+    /**
+     * [initialize load micro template of default board message
+     */
     initialize: function() {
+        this.defaultEmptyMemoryBoard = tpl('memory-board-default');
     },
 
+    /**
+     * [render main view of memory game section
+     */
     render: function() {
-      this.$el.html(this.template);
+      this.$el.html(this.template({'defaultMessage':this.defaultEmptyMemoryBoard()}));
       return this;
+    },
+
+    /**
+     * [defaultBoard draw the empty board with inviting message to click on a link
+     */
+    defaultBoard:function()
+    {
+    this.$('#edWuiDeckName').html(this.defaultEmptyMemoryBoard());
     }
   });
 

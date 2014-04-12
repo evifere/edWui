@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <board>
   <title>Comparaison d'écriture</title>
-  <description>Trouve le prénom en minuscule et celui en majuscule</description>
+  <description>Trouves le prénom en minuscule et celui en majuscule</description>
   <decks>
     <deck name="Les prénoms">
       <couple>
