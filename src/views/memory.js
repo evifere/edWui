@@ -54,7 +54,6 @@
          if (this.$('.cardselected').length == this.memoryOpts.maxSelected){
                     this.onCardsSelected();
          }
-        
         }
 
     },
@@ -158,6 +157,8 @@
      */
     onBoardEmpty:function()
     {
+    var _self = this;
+
     $('#dlgmsgend_' + this.$el.attr('id'))
       .attr('title','Bravo tu as gagné !! \\0/ ')
       .dialog({
@@ -167,8 +168,9 @@
         buttons:
                 {
                   "Super :)": function() { 
-                     //   myUI._self._reload();
-                          $(this).dialog("close"); }
+                     _self.$el.trigger('defaultBoard');
+                          $(this).dialog("close"); 
+                    }
                 }
               });//fin dialog
     },
