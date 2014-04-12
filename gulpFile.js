@@ -158,8 +158,11 @@ gulp.task('copyImg', function() {
 //build app index
 gulp.task('buildAppIndex', function () {
  var jsonDatasToLoad = fs.readdirSync('./build/json');
-
+ 
+ if( jsonDatasToLoad[0] === '.gitkeep')
+    delete jsonDatasToLoad[0];
  console.log(jsonDatasToLoad);
+  console.log('----');
  return es.concat(
     gulp.src('./src/partials/**/*.html')
       /*.pipe(minifyHTML({spare: true}))*/
