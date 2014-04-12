@@ -2,8 +2,8 @@
 (function(win, doc, edWui){
 
   /**
-   * Root View
-   * @type {object}
+   * Memory View
+   * @type Backbone.View
    */
   edWui.Views.Memory = Backbone.View.extend({
 
@@ -25,11 +25,6 @@
     _self.iCards += cards.card.length;
     });
 
-    console.log('**********');
-    console.log(_self.iCards);
-
-    console.log('**********');
-
     this.currentDataGroup = -1;
     },
 
@@ -42,12 +37,15 @@
       return this;
     }
     ,
+
+    /**
+     * clickOnCard what to do when click on a card
+     * @param  click event 
+     */
     clickOnCard:function(evt)
     {
     evt.stopPropagation();
-    console.log(evt.currentTarget);
-    console.log('before toggleState');
-    
+
     $couple = $(evt.currentTarget);
     this.currentDataGroup = $couple.data('group');
 
@@ -60,27 +58,29 @@
         }
 
     },
+
     /**
-     * [onCardsSelected process what to do when the number of card to select is reached
+     * [onCardsSelected process what to do when the number of card to form a couple to select is reached
      **/
     onCardsSelected:function()
     {
-    if (this.memoryOpts.autoconfirm === false) 
+    if (this.memoryOpts.autoconfirm === false)
        {
-       this.onConfirmSelection();   
+       this.onConfirmSelection();
        return true;
        }
-       
+
      this.onControlCardGroup();
     },
 
+    /**
+     * onConfirmSelection open a dialog box to ask the user if he is sure
+     * @return boolean
+     */
     onConfirmSelection:function()
     {
-    console.log('onConfirmSelection');
     var _self = this;
     var dlgId = this.$el.attr('id');
-
-    console.log(dlgId);
 
     $('#dlgmsg_' + dlgId).html('');
 
@@ -112,6 +112,9 @@
 
     },
 
+    /**
+     * [onControlCardGroup control if the selected card group match
+     */
     onControlCardGroup:function()
     {
     var ok = true;
@@ -128,6 +131,12 @@
 
     },
 
+    /**
+     * [onControlCardMatch process what to do if the cards match
+     *
+     * hide the cards
+     * triggers onBoardEmpty if the wole board is empty
+     */
     onControlCardMatch:function ()
     {
 
@@ -139,16 +148,24 @@
        $card.css('visibility', 'hidden');
        });
 
-        if (this.iCards  === this.$('.cardfound').length)
-            this.onBoardEmpty();
+    if (this.iCards  === this.$('.cardfound').length)
+        this.onBoardEmpty();
 
     },
 
+    /**
+     * [onBoardEmpty description]
+     * @return {[type]} [description]
+     */
     onBoardEmpty:function()
     {
     console.log('onBoardEmpty');
     },
 
+    /**
+     * [onControlCardNotMatch display a user dialog to say that he is wrong
+     * restores unselected card state
+     */
     onControlCardNotMatch:function ()
     {
     var _self = this;
@@ -180,8 +197,7 @@
      */
     toggleState:function ($card,hideunselected,maxselected)
     {
-        console.log($card);
-        console.log($card.hasClass('ui-state-highlight'));
+        //hide card reselected
         if ($card.hasClass('ui-state-highlight') === true)
           {
           $card.removeClass('ui-state-highlight');
@@ -189,29 +205,24 @@
 
           if (hideunselected === true)
              $card.find(':first-child').css({'display':'none'});
-            
-          return true;  
+
+          return true;
           }
        else
-         {
-         console.log($('.cardselected').length);
-         console.log(maxselected);
-         
+         {//hightlight card
          if ($('.cardselected').length < maxselected )
             {
-            $card.addClass('ui-state-highlight'); 
-            $card.addClass('cardselected'); 
-          //  $card.css('border-width','2px');
-          
+            $card.addClass('ui-state-highlight');
+            $card.addClass('cardselected');
+
             if (hideunselected === true)
                $card.find(':first-child').css({'display':'block'});
-            
-            console.log('hightlight done');
-            return true;  
+
+            return true;
             }
      }
-     
-  return false;    
+
+  return false;
   }
 
   });
