@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <board>
   <title>Les tables de multiplication</title>
-  <description>Trouve les couples multiplication et résultat</description>
+  <description>Trouves les couples multiplication et résultat</description>
   <decks>
     <deck name="table de 1">
       <couple>

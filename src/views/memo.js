@@ -88,8 +88,14 @@
 
     updateMemoryTitle:function()
     {
+    var szDeckName = this.currentBoardData.$.name;
+
+    if(this.currentBoardData.$.description)
+        szDeckName += ':' + this.currentBoardData.$.description;
+
     $('#edWuiBoardTitle').text( this.currentBoardTitle + ' (' + this.currentBoardDescription + ')');
-    $('#edWuiDeckName').text( this.currentBoardData.$.name + ':' + this.currentBoardData.$.description);
+
+    $('#edWuiDeckName').text(szDeckName);
     console.log(this.currentBoardData.$);
     },
 
