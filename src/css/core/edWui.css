@@ -1,0 +1,70 @@
+body,table
+{margin:0;
+padding:0;
+width:100%;height:100%;
+background-color: rgb(121, 183, 231);
+}
+
+td{text-align:center}
+
+.title14{font-size:14px;font-family:Verdana,Times New;}
+
+p{font-size:11px;font-family:Verdana,Times New;font-style:normal;font-weight:normal}
+
+.bar1{
+    width: 100%;
+    height:1px;}
+
+#edWuiBar{
+    min-height: 28px;
+    text-align: center;
+}
+
+#edWuiMenu{
+position:absolute;
+top:50px;
+left:15px;
+width:200px;
+min-height:400px;
+}
+
+
+.memoryFieldset{
+
+position:absolute;
+top:50px;
+left:250px;
+width:880px;
+min-height:280px;
+
+}
+
+.memoryFieldset legend{
+width: 50%;
+min-height: 18px;
+}
+}
+
+div.edWuiCard{
+position:relative;
+width:128px;
+min-height:128px;
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+margin:5px;
+line-height:400%;
+border-width:4px;
+}
+
+.edWuiCardHide{
+    display: none;
+}
+.edWuiCardShow{
+    display: block;
+}
+
+a.deckLauncher{
+color:#1d5987;
+text-decoration:none;
+}

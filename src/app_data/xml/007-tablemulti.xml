@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<board>
+  <title>Les tables de multiplication</title>
+  <description>Trouves les couples multiplication et résultat</description>
+  <decks>
+    <deck name="table de 1">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 1</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 2</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 3</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 4</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 5</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 6</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 7</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 8</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 9</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">1 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 10</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 2">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 2</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 4</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 6</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 8</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 10</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 12</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 14</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 16</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 18</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">2 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 20</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 3">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 3</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 6</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 9</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 12</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 15</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 18</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 21</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 24</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 27</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">3 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 30</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 4">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 4</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 8</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 12</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 16</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 20</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 24</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 28</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 32</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 36</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">4 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 40</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 5">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 5</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 10</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 15</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 20</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 25</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 30</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 35</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 40</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 45</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">5 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 50</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 6">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 6</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 12</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 18</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 24</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 30</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 36</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 42</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 48</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 54</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">6 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 60</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 7">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 7</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 14</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 21</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 28</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 35</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 42</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 49</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 56</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 63</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">7 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 70</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 8">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 8</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 16</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 24</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 32</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 40</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 48</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 56</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 64</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 72</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">8 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 80</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 9">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 9</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 18</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 27</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 36</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 45</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 54</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 63</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 72</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 81</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">9 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 90</span>]]></card>
+      </couple>
+    </deck>
+    <deck name="table de 10">
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 1</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 10</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 2</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 20</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 3</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 30</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 4</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 40</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 5</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 50</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 6</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 60</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 7</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 70</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 8</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 80</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 9</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 90</span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">10 * 10</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">= 100</span>]]></card>
+      </couple>
+    </deck>
+  </decks>
+</board>

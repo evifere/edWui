@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<board>
+  <title>Mon premier Mémo</title>
+  <description>Mémo adapté aux bébés</description>
+  <decks>
+    <deck hideunselected="false" name="Animaux 1" description="Trouves les deux images d'animaux identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/biche.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/biche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/bison.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/bison.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/canard.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/canard.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/cerf.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/cerf.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/chameau.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/chameau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/chat.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/chat.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/cheval.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/cheval.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux 2" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/chien.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/chien.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/chouette.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/chouette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/chevre.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/chevre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/cochon.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/cochon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/coqetpoule.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/coqetpoule.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/crabe.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/crabe.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/crocodile.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/crocodile.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/cygne.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/cygne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux 3" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/dauphin.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/dauphin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/ecureuil.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/ecureuil.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/elephant.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/elephant.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/girafes.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/girafes.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/gorille.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/gorille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/grenouille.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/grenouille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/hippopotame.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/hippopotame.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/kangourou.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/kangourou.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux 4" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/lapin.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/lapin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/lionetlionne.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/lionetlionne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/loup.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/loup.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/mouton.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/mouton.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/oie.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/oie.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/oiseau.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/oiseau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/ours.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/ours.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/panda.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/panda.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux 5" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/perroquet.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/perroquet.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/pingouin.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/pingouin.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/poisson.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/poisson.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/renard.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/renard.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/serpent.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/serpent.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/singe.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/singe.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/souris.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/souris.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/tigre.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/tigre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Animaux 6" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/tortue.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/tortue.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/toucan.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/toucan.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/vache.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/vache.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/zebre.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/zebre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Couleurs" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<span style="display: block; background-color: red; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: red; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="display: block; background-color: green; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: green; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="display: block; background-color: yellow; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: yellow; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="display: block; background-color: blue; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: blue; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="display: block; background-color: purple; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: purple; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<span style="display: block; background-color: black; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+        <card><![CDATA[<span style="display: block; background-color: black; white-space: nowrap; vertical-align: middle; ">&nbsp;<br><br><br></span>]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Fruits" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/cerise.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/cerise.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/citron.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/citron.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/fraise.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/fraise.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/melon.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/melon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/peche.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/peche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/poire.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/poire.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Fruits 2">
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/kiwi.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/kiwi.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/pamplemousse.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/pamplemousse.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/passion-fruit.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/passion-fruit.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/papaye.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/papaye.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/pasteque.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/pasteque.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/fruits/pomme.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/fruits/pomme.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Instruments">
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/accordeon.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/accordeon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/banjo.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/banjo.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/bongo.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/bongo.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/guitare.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/guitare.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/saxo.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/saxo.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/trompette.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/trompette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/instrument/violon.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/instrument/violon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Météo" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/arc en ciel.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/lune.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/lune.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/neige.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/neige.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/nuage.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/nuage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/orage.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/orage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/pluie.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/pluie.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/soleil nuage.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/soleil nuage.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/soleil.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/soleil.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/meteo/vent.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/meteo/vent.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Saisons" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/saison/arbreautome.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/arbreautome.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/automnearbre2.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/automnearbre2.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/bonhommedeneige.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/bonhommedeneige.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/chateausableete.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/chateausableete.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/ete.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/ete.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/feuilleautomne.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/feuilleautomne.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/fleurprintemps.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/fleurprintemps.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/hiver.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/hiver.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/printempsarbre.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/printempsarbre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/tulipeprintemps.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/tulipeprintemps.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/saison/vetementhiver.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/saison/vetementhiver.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Légumes 1" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/asperge.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/aubergine.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/aubergine.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/carotte.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/carotte.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/champignons.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/champignons.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/courgette.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/courgette.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/mais.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Légumes 2">
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/oignon.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/oignon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/petitspois.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/petitspois.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/poireau.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/poireau.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/pommedeterre.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/pommedeterre.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/salade.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/salade.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/legumes/tomate.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/legumes/tomate.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Nombres" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/1.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/1.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/2.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/2.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/3.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/3.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/4.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/4.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/5.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/5.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/6.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/6.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/7.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/7.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/8.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/8.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/nombres/9.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/nombres/9.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+    <deck hideunselected="false" name="Petites bêtes" description="Trouves les deux images identiques">
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/Scorpion.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/abeille.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/abeille.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/araignee.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/araignee.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/coccinelle.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/coccinelle.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/escargot.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/escargot.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/libellule.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/libellule.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+      <couple>
+        <card><![CDATA[<img src="./img/ptitesbetes/papillon.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/ptitesbetes/papillon.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+    </deck>
+  </decks>
+</board>
