@@ -32,7 +32,10 @@
       this.$el.html(this.template(this.memoryOpts));
 
       if(this.memoryOpts.autoshuffle === true)
-        this.$('div').shuffle();
+        {
+         var shuffled = _.shuffle(this.$el.find('.edWuiCard').get());
+         this.$el.html(shuffled);
+        }
 
       return this;
     }

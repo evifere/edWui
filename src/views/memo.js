@@ -39,7 +39,6 @@
 
                 $.cookie('active_tabindex_'+menuselector, iSection);
 
-                console.log($(this).find('div:eq('+iSection+')').data('xmldeckfile'));
       }});
 
       return this;
@@ -96,7 +95,6 @@
     $('#edWuiBoardTitle').text( this.currentBoardTitle + ' (' + this.currentBoardDescription + ')');
 
     $('#edWuiDeckName').text(szDeckName);
-    console.log(this.currentBoardData.$);
     },
 
     /**

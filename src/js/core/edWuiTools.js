@@ -29,18 +29,4 @@ function ()
  return val;
  };
 
- /**
-  * this function shuffle has been inspired by http://james.padolsey.com/javascript/shuffling-the-dom/
-  * and simplified with underscorejs
-  */
-  $.fn.shuffle = function() {
-    var shuffled = _.shuffle(this.get());
-
-    this.each(function(i){
-            $(this).replaceWith($(shuffled[i]));
-        });
-
-    return $(shuffled);
-    };
-
  });//fin ready
