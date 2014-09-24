@@ -113,6 +113,9 @@
 
     edWuiOpts.couples = edWuiOpts.data;
 
+    if(edWui.Views.Instances.Memory)
+      edWui.Views.Instances.Memory.destroy();
+
     edWui.Views.Instances.Memory = new edWui.Views.Memory(edWuiOpts);
     edWui.Views.Instances.Memory.render();
 

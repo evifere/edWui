@@ -4,7 +4,7 @@
     edWui.AppRouter = Backbone.Router.extend({
      routes: {
       '': 'home',
-      'memo': 'memo',
+      'memo/:action': 'memo',
       '*path': 'redirect404' // ALWAYS MUST BE THE LAST ROUTE
         },
 
@@ -35,10 +35,13 @@
       this.after();
         },
 
-     memo: function() {
+     memo: function(action) {
+      if(action !== 'pair')
+         return this.redirect404();
+
       this.before();
 
-      $.get(jsonData('boards'),function (data, textStatus, jqXHR){
+      $.get(jsonData('memo/'+action+'/boards'),function (data, textStatus, jqXHR){
 
         edWui.Collections.memoryBoard = Backbone.Collection.extend();;
         edWui.Collections.Instances.memoryBoard = new edWui.Collections.memoryBoard(data);
@@ -53,6 +56,11 @@
 
 
       this.after();
+        },
+
+    redirect404:function(){
+        console.warn('the requested route is unknown back to home');
+        this.home();
         }
 
     });
