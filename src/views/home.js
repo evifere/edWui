@@ -27,7 +27,7 @@
     },
 
     gotoMemoryBoard:function(){
-    edWui.AppRouter.Instance.navigate("memo", {trigger: true});
+    edWui.AppRouter.Instance.navigate("memo/pair", {trigger: true});
     }
 
   });

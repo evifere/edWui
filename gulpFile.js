@@ -42,7 +42,7 @@ var projectGlobals = {
 };
 
 //default task
-gulp.task('default',['clean', 'buildVendor','buildCore','buildBoardJsonDatas','buildAppIndex']);
+gulp.task('default',['clean', 'buildVendor','buildCore','buildBoardJsonDatas']);
 
 //build vendor files
 gulp.task('buildVendor',['vendorscripts','vendorcss','copyCssImages']);
@@ -51,7 +51,7 @@ gulp.task('buildVendor',['vendorscripts','vendorcss','copyCssImages']);
 gulp.task('buildCore',['corescripts','coreCss']);
 
 //quick build
-gulp.task('quick',['coreclean','buildCore','buildBoardJsonDatas','buildAppIndex']);
+gulp.task('quick',['coreclean','buildCore','buildBoardJsonDatas']);
 
 
 // Delete the build directories
@@ -108,12 +108,18 @@ gulp.task('buildBoardJsonDatas', function () {
 
  var indexBoard  = [];
  var currentFile = "";
+ var currentBoardPath = "";
 
- return gulp.src('src/app_data/xml/*.xml')
+ process.jsonDatasToLoad = [];
+
+ return gulp.src('src/app_data/xml/**/*.xml')
         .pipe(xml2json())
         .pipe(rename({extname: '.json'}))
         .pipe(tap(function (file,t) {
-            currentFile = pathUtil.basename(file.path);
+            currentFile = file.relative;
+            currentBoardPath = pathUtil.dirname(file.relative);
+            console.log(currentBoardPath);
+            process.jsonDatasToLoad.push(currentFile);
         }))
         .pipe(jeditor(function(json) {
             indexBoard.push({
@@ -126,7 +132,10 @@ gulp.task('buildBoardJsonDatas', function () {
         }))
         .pipe(gulp.dest('build/json'))
         .on('end',function(){
-            jsonfile.writeFileSync('build/json/boards.json', indexBoard);
+            process.jsonDatasToLoad.push(currentBoardPath+'/boards.json');
+            jsonfile.writeFileSync('build/json/'+currentBoardPath+'/boards.json', indexBoard);
+             console.log(process.jsonDatasToLoad);
+             gulp.run('buildAppIndex');
         });
 });
 
@@ -157,11 +166,11 @@ gulp.task('copyImg', function() {
 
 //build app index
 gulp.task('buildAppIndex', function () {
- var jsonDatasToLoad = fs.readdirSync('./build/json');
+// var jsonDatasToLoad = fs.readdirSync('./build/json');
  
- if( jsonDatasToLoad[0] === '.gitkeep')
-    delete jsonDatasToLoad[0];
- console.log(jsonDatasToLoad);
+ if( process.jsonDatasToLoad[0] === '.gitkeep')
+    delete process.jsonDatasToLoad[0];
+ console.log(process.jsonDatasToLoad);
   console.log('----');
  return es.concat(
     gulp.src('./src/partials/**/*.html')
@@ -187,7 +196,7 @@ gulp.task('buildAppIndex', function () {
             template({
                 scripts:["./js/vendor.min.js","./js/edWui.min.js"],
                 css:["./css/vendor.min.css","./css/edWui.min.css"],
-                jsonDatas:fs.readdirSync('./build/json')
+                jsonDatas:process.jsonDatasToLoad //fs.readdirSync('./build/json')
             })))
         .pipe(concat('index.html'))
         .pipe(minifyHTML({spare: true}))
