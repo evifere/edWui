@@ -23,6 +23,6 @@
     edWui.AppRouter = {};
     edWui.AppRouter.Instance = {};
     edWui.Events = {};
-    edWui.version = "1.1.0";
+    edWui.version = "1.1.1";
 
 })(window, window.document, window.edWui || (window.edWui = {}));

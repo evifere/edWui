@@ -48,7 +48,6 @@
     clickOnCard:function(evt)
     {
     evt.stopPropagation();
-    console.log('clickOnCard');
     $couple = $(evt.currentTarget);
     this.currentDataGroup = $couple.data('group');
 
