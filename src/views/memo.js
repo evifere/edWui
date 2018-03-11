@@ -66,7 +66,7 @@
     $.ajax({
       url: jsonUrl ,
       type:'GET',
-      async:false,
+      async:true,
       context: document.body,
       dataType:'json',
       crossDomain:true,
