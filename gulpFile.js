@@ -23,7 +23,8 @@ var imagemin   = require('gulp-imagemin');
 
 //globals project variables
 var projectGlobals = {
-  vendorscripts: ['src/js/vendor/jquery-2.1.0.min.js'
+  vendorscripts: ['node_modules/jquery/dist/jquery.min.js',
+  'node_modules/jquery-migrate/dist/jquery-migrate.min.js',
   ,'src/js/vendor/jquery.cookie.js'
   ,'src/js/vendor/jquery-ui-1.10.4.custom.min.js'
   ,'node_modules/underscore/underscore-min.js'
