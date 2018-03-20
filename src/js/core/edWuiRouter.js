@@ -41,7 +41,7 @@
 
       this.before();
 
-      $.get(jsonData('memo/'+action+'/boards'),function (data, textStatus, jqXHR){
+      $.getJSON(jsonData('memo/'+action+'/boards'),function (data, textStatus, jqXHR){
 
         edWui.Collections.memoryBoard = Backbone.Collection.extend();;
         edWui.Collections.Instances.memoryBoard = new edWui.Collections.memoryBoard(data);
