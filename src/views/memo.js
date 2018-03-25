@@ -28,22 +28,6 @@
 
       menuselector = 'edWuiMenu';
 
-      var active_tabindex = ($.cookie('active_tabindex_' + menuselector) === null) ? 0 : parseInt($.cookie('active_tabindex_' + menuselector), 10);
-
-      this.$el.accordion({
-        'autoHeight': false,
-        'clearStyle': true,
-        'icons': false,
-        'active': active_tabindex,
-        'animated': "bounceslide",
-        change: function(e, ui) {
-          var iSection = $(this).find('h3').index(ui.newHeader[0]);
-
-          $.cookie('active_tabindex_' + menuselector, iSection);
-
-        }
-      });
-
       return this;
     },
 
@@ -92,7 +76,7 @@
 
       $('#edWuiBoardTitle').text(this.currentBoardTitle + ' (' + this.currentBoardDescription + ')');
 
-      $('#edWuiDeckName').text(szDeckName);
+      $('#edWuiDeckName').attr('data-content',szDeckName);
     },
 
     /**
