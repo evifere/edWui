@@ -2,7 +2,7 @@ body,table
 {margin:0;
 padding:0;
 width:100%;height:100%;
-background-color: rgb(121, 183, 231);
+/*background-color: rgb(121, 183, 231);*/
 }
 
 td{text-align:center}
@@ -20,31 +20,6 @@ p{font-size:11px;font-family:Verdana,Times New;font-style:normal;font-weight:nor
     text-align: center;
 }
 
-#edWuiMenu{
-position:absolute;
-top:50px;
-left:15px;
-width:200px;
-min-height:400px;
-}
-
-
-.memoryFieldset{
-
-position:absolute;
-top:50px;
-left:250px;
-width:880px;
-min-height:280px;
-
-}
-
-.memoryFieldset legend{
-width: 50%;
-min-height: 18px;
-}
-}
-
 div.edWuiCard{
 position:relative;
 width:128px;
@@ -57,7 +32,7 @@ line-height:400%;
 border-width:4px;
 }
 
-.edWuiCardHide{
+.edWuiCardHide,.hiddenMsg{
     display: none;
 }
 .edWuiCardShow{
