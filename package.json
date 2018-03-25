@@ -27,6 +27,7 @@
     "jquery": "^3.3.1",
     "jquery-migrate": "^3.0.1",
     "jsonfile": "~1.1.1",
+    "spectre-css": "^1.0.0",
     "underscore": "^1.8.3"
   },
   "scripts": {
