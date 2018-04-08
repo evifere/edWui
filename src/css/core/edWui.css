@@ -60,3 +60,7 @@ font-size: 1.2em;
 .main-bg{
 	background-color:#a6c9e2;
 }
+
+.dropdown .menu{
+	left:auto;
+}
