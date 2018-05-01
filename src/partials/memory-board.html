@@ -1,19 +1,41 @@
-<div id="edWuiBar">
-</div>
-<div id="edWuiMenu">
-
-</div>
-<div id="dlgmsg_edWuiBoardMemo"></div>
+<div id="edWuiBar"></div>
+<header class="navbar">
+	<div id="edWuiMenu"></div>
+</header>
+<!--div id="dlgmsg_edWuiBoardMemo"></div-->
 <div id="dlgmsgerr_edWuiBoardMemo"></div>
 <div id="dlgmsgend_edWuiBoardMemo"></div>
 
+<div id="edWuiDeckName" class="divider text-center" data-content="<%=defaultMessage%>"></div>
 
-<fieldset class="ui-widget ui-widget-content memoryFieldset">
-  <legend class="ui-widget-header ui-corner-all"><span id="edWuiDeckName"><%=defaultMessage%></span></legend>
+<div class="container">
+  <div class="columns">
+    <div id="edWuiBoardMemo" >
+		<div class="toast toast-success endBoard hiddenMsg text-center"><button class="btn btn-clear float-right "></button>Bravo tu as gagné !! \\0/</div>
+		<div class="toast toast-success cardMatch hiddenMsg text-center"><button class="btn btn-clear float-right "></button>Bien Joué !</div>
+		<div class="toast toast-error hiddenMsg text-center"><button class="btn btn-clear float-right"></button>C'est faux !</div>
+    	<div class="memocontent"></div>
+    	<div class="modal modal-sm">
+		  <a href="#memo/close" class="modal-overlay" aria-label="Non :("></a>
+		  <div class="modal-container">
+		    <div class="modal-header">
+		      <a href="javascript:void(0);" class="confirmNo btn btn-clear float-right" aria-label="Non :("></a>
+		      <div class="modal-title h5">Tu es sûr ?</div>
+		    </div>
+		    <div class="modal-body">
+		      <div class="content">
+		        <!-- content here -->
+		      </div>
+		    </div>
+		    <div class="modal-footer">
+		      <button id="confirmYes" class="btn btn-primary confirmYes">Oui :)</button>
+		      <a class="confirmNo" href="javascript:void(0);" class="btn btn-link">Non :(</a>
+		    </div>
+		  </div>
+		</div>
 
-    <div id="edWuiBoardMemo" class="ui-widget-content">
     </div>
-</fieldset>
-
-
+  </div>
 </div>
+
+

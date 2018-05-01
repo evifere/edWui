@@ -12,7 +12,9 @@
     template: tpl('memory-board-accordion'),
 
     events: {
-      "click .deckLauncher": "launchMemo"
+      "click .deckLauncher": "launchMemo",
+      "click .nextMenu":"showNextMenu",
+      "click .dropdown-toggle-btn":"onToggleMenu"
     },
 
     initialize: function() {},
@@ -28,37 +30,36 @@
 
       menuselector = 'edWuiMenu';
 
-      var active_tabindex = ($.cookie('active_tabindex_' + menuselector) === null) ? 0 : parseInt($.cookie('active_tabindex_' + menuselector), 10);
-
-      this.$el.accordion({
-        'autoHeight': false,
-        'clearStyle': true,
-        'icons': false,
-        'active': active_tabindex,
-        'animated': "bounceslide",
-        change: function(e, ui) {
-          var iSection = $(this).find('h3').index(ui.newHeader[0]);
-
-          $.cookie('active_tabindex_' + menuselector, iSection);
-
-        }
-      });
-
       return this;
     },
 
     /**
-     * [launchMemo load memory config and display it in ajax all back
+     * launchMemo load memory config and display it in ajax all back
      * @param   ev  click event
      */
     launchMemo: function(ev) {
       var datas = this.$(ev.currentTarget).data();
 
+      this.onToggleMenu(ev);
       this.loadBoard(datas.boardfile, datas.deck)
     },
 
     /**
-     * [loadBoard load json config for the selected board
+     * onToggleMenu - open close corresponding menu
+     * @param  click event ev
+     */
+    onToggleMenu:function(ev){
+      this.$(ev.currentTarget).parents('.dropdown').toggleClass('active');
+    },
+    /**
+     * showNextMenu - show next menu items
+     */
+    showNextMenu: function(){
+      this.$('.btn-group').toggleClass('hiddenMenu')
+    },
+
+    /**
+     * loadBoard load json config for the selected board
      * @param  string jsonUrl   url of the json config file
      * @param  boolean deckIndex index of the deck
      */
@@ -92,7 +93,7 @@
 
       $('#edWuiBoardTitle').text(this.currentBoardTitle + ' (' + this.currentBoardDescription + ')');
 
-      $('#edWuiDeckName').text(szDeckName);
+      $('#edWuiDeckName').attr('data-content',szDeckName);
     },
 
     /**

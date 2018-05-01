@@ -1,5 +1,6 @@
 //tasks imports
 var gulp       = require('gulp');
+var runSeq     = require('run-sequence');
 var fs         = require('fs');
 var es         = require('event-stream');
 var clean      = require('gulp-clean');
@@ -26,7 +27,6 @@ var projectGlobals = {
   vendorscripts: ['node_modules/jquery/dist/jquery.min.js',
   'node_modules/jquery-migrate/dist/jquery-migrate.min.js',
   ,'src/js/vendor/jquery.cookie.js'
-  ,'src/js/vendor/jquery-ui-1.10.4.custom.min.js'
   ,'node_modules/underscore/underscore-min.js'
   ,'node_modules/backbone/backbone-min.js'],
   coreScripts: ['src/js/core/edWuiBootStrap.js'
@@ -38,15 +38,17 @@ var projectGlobals = {
   coreCss: ['src/css/core/*.css'],
   buildPathToClean: ['build/js/*.js','build/css/*.css','build/css/images/*.*','build/*.html'],
   coreBuildPathToClean: ['build/js/edWui.min.js','build/css/edWui.min.css','build/*.html'],
-  vendorCss:['src/css/vendor/*.css'],
+  vendorCss:['src/css/vendor/spectre*.css'],
   vendorCssImages:['src/css/vendor/images/*.*']
 };
 
 //default task
-gulp.task('default',['clean', 'buildVendor','buildCore','buildBoardJsonDatas']);
+gulp.task('default', function() {
+      return runSeq('clean', ['buildVendor', 'buildCore', 'buildBoardJsonDatas']);
+      });
 
 //build vendor files
-gulp.task('buildVendor',['vendorscripts','vendorcss','copyCssImages']);
+gulp.task('buildVendor',['vendorscripts','vendorcss'/*,'copyCssImages'*/]);
 
 //build core files
 gulp.task('buildCore',['corescripts','coreCss']);

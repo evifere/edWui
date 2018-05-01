@@ -8,15 +8,10 @@ _.each(cards.card, function(card,i) {
  var classEditable = (editable === true) ? 'edWuiEditable':'edWuiNotEditable';
  var classContainerHideUnselected = (hideunselected === true && !editable) ? 'edWuiCardHide':'edWuiCardShow';
  var idAttr = idcouple + '_' + i;
- var divClass = "edWuiCard ui-widget ui-corner-all " +  classEditable + " " + classHideUnselected + " " + idcouple;
+ var divClass = "edWuiCard bg-primary rounded " +  classEditable + " " + classHideUnselected + " " + idcouple;
 %>
 <div id="<%=idAttr%>" class="<%=divClass%>" data-group="<%=idcouple%>" >
-
-<center class="cardcontainer <%= classContainerHideUnselected%>">
-
-<% print(card);%>
-
-</center>
+	<div class="cardcontainer <%= classContainerHideUnselected%>"><% print(card);%></div>
 </div>
 <%
 });
