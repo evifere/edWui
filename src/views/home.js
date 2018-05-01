@@ -21,7 +21,6 @@
 
     render: function() {
       this.$el.html(this.template);
-      this.$('#gotoMemoryBoard').button();
 
       return this;
     },
