@@ -162,13 +162,14 @@
     },
 
     /**
-     * [onControlCardMatch process what to do if the cards match
+     * onControlCardMatch - process what to do if the cards match
      *
      * hide the cards
      * triggers onBoardEmpty if the wole board is empty
      */
     onControlCardMatch: function() {
       this.$('.toast-error').addClass('hiddenMsg');
+      this.$('.toast-success.cardMatch').removeClass('hiddenMsg');
 
       this.$('.cardselected').each(function() {
         $card = $(this);
@@ -187,7 +188,7 @@
      * [onBoardEmpty display winning notification
      */
     onBoardEmpty: function() {
-      this.$('.toast-success').removeClass('hiddenMsg');
+      this.$('.toast-success.endBoard').removeClass('hiddenMsg');
     },
 
     /**
@@ -198,7 +199,8 @@
       var _self = this;
 
       this.$('.toast-error').removeClass('hiddenMsg');
-      this.$('.toast-success').addClass('hiddenMsg');
+      this.$('.toast-success.endBoard').addClass('hiddenMsg');
+      this.$('.toast-success.cardMatch').addClass('hiddenMsg');
       this.toggleSelectedCards();
 
     },
