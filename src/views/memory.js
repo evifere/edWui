@@ -14,7 +14,8 @@
     events: {
       "click .edWuiNotEditable": "clickOnCard",
       "click a.confirmNo": "clickOnConfirmNo",
-      "click #confirmYes": "clickOnConfirmYes"
+      "click #confirmYes": "clickOnConfirmYes",
+      "click .btn.btn-clear":"closeMsgToast"
     },
 
     initialize: function(options) {
@@ -59,6 +60,15 @@
         }
       }
 
+    },
+
+    /**
+     * closeMsgToast - close the toast
+     * @param  Event evt - click on close button
+     */
+    closeMsgToast:function(evt){
+      evt.stopPropagation();
+      $(evt.currentTarget).parent().addClass('hiddenMsg');
     },
 
     /**
