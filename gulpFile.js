@@ -1,5 +1,6 @@
 //tasks imports
 var gulp       = require('gulp');
+var runSeq     = require('run-sequence');
 var fs         = require('fs');
 var es         = require('event-stream');
 var clean      = require('gulp-clean');
@@ -42,7 +43,9 @@ var projectGlobals = {
 };
 
 //default task
-gulp.task('default',['clean', 'buildVendor','buildCore','buildBoardJsonDatas']);
+gulp.task('default', function() {
+      return runSeq('clean', ['buildVendor', 'buildCore', 'buildBoardJsonDatas']);
+      });
 
 //build vendor files
 gulp.task('buildVendor',['vendorscripts','vendorcss'/*,'copyCssImages'*/]);
