@@ -13,7 +13,8 @@
 
     events: {
       "click .deckLauncher": "launchMemo",
-      "click .nextMenu":"showNextMenu"
+      "click .nextMenu":"showNextMenu",
+      "click .dropdown-toggle-btn":"onToggleMenu"
     },
 
     initialize: function() {},
@@ -39,9 +40,17 @@
     launchMemo: function(ev) {
       var datas = this.$(ev.currentTarget).data();
 
+      this.onToggleMenu(ev);
       this.loadBoard(datas.boardfile, datas.deck)
     },
 
+    /**
+     * onToggleMenu - open close corresponding menu
+     * @param  click event ev
+     */
+    onToggleMenu:function(ev){
+      this.$(ev.currentTarget).parents('.dropdown').toggleClass('active');
+    },
     /**
      * showNextMenu - show next menu items
      */

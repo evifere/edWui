@@ -70,3 +70,11 @@ font-size: 1.2em;
     display: inline-block!important;
 }
 }
+/*fix onclosing drop down menu*/
+.dropdown .menu:hover {
+	display:none;
+}
+
+.dropdown.active .menu:hover {
+	display:block;
+}
