@@ -12,7 +12,8 @@
     template: tpl('memory-board-accordion'),
 
     events: {
-      "click .deckLauncher": "launchMemo"
+      "click .deckLauncher": "launchMemo",
+      "click .nextMenu":"showNextMenu"
     },
 
     initialize: function() {},
@@ -32,7 +33,7 @@
     },
 
     /**
-     * [launchMemo load memory config and display it in ajax all back
+     * launchMemo load memory config and display it in ajax all back
      * @param   ev  click event
      */
     launchMemo: function(ev) {
@@ -42,7 +43,14 @@
     },
 
     /**
-     * [loadBoard load json config for the selected board
+     * showNextMenu - show next menu items
+     */
+    showNextMenu: function(){
+      this.$('.btn-group').toggleClass('hiddenMenu')
+    },
+
+    /**
+     * loadBoard load json config for the selected board
      * @param  string jsonUrl   url of the json config file
      * @param  boolean deckIndex index of the deck
      */

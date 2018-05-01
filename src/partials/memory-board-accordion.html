@@ -2,7 +2,7 @@
 <% 
 _.each(boards, function(board,index) {
 %>
-  <div class="btn-group">
+  <div class="btn-group group <%= (index%2) ? 'hiddenMenu' : '' %> show-ib-xl" >
   	<a href="javascript:void(0)" class="btn"><%= board.title %></a>
     <a href="javascript:void(0)" class="btn dropdown-toggle" tabindex="<%= index %>">
       <i class="icon icon-caret"></i>
@@ -24,3 +24,4 @@ _.each(boards, function(board,index) {
 <%
 });
 %>
+<button class="btn btn-primary btn-action btn-lg nextMenu"><i class="icon icon-forward"></i></button>
