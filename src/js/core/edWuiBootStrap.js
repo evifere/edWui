@@ -1,7 +1,7 @@
 (function(win, doc, edWui){
 
     win.tpl = function(view) {
-      return _.template(doc.getElementById(view + '-viewtpl').innerHTML);
+      return _.template(doc.getElementById('/' + view + '-viewtpl').innerHTML);
     };
 
     win.jsonData = function(name) {
