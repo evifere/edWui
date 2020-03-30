@@ -36,7 +36,8 @@ var projectGlobals = {
   ,'src/js/core/edWuiRouter.js'
   ,'src/js/core/edWui.js'],
   coreCss: ['src/css/core/*.css'],
-  buildPathToClean: ['build/js/*.js','build/css/*.css','build/css/images/*.*','build/*.html'],
+  buildPath:"build/",
+  buildPathToClean: ['build/js/*.js','build/css/*.css','build/css/images/*.*','build/*.html','build/json/memo/pair/*.json'],
   coreBuildPathToClean: ['build/js/edWui.min.js','build/css/edWui.min.css','build/*.html'],
   vendorCss:['src/css/vendor/spectre*.css'],
   vendorCssImages:['src/css/vendor/images/*.*']
@@ -71,7 +72,7 @@ return gulp.src(projectGlobals.buildPathToClean)
 
 // Delete the intermediate generated file
 gulp.task('endclean', function() {
-return gulp.src('build/templates.html')
+return gulp.src(projectGlobals.buildPath + 'templates.html')
 .pipe(clean());
 });
 
@@ -81,7 +82,7 @@ gulp.task('vendorscripts', function() {
   return gulp.src(projectGlobals.vendorscripts)
     .pipe(uglify())
     .pipe(concat('vendor.min.js'))
-    .pipe(gulp.dest('build/js'));
+    .pipe(gulp.dest(projectGlobals.buildPath + '/js'));
 });
 
 //build vendor css
@@ -89,14 +90,14 @@ gulp.task('vendorcss', function() {
   return gulp.src(projectGlobals.vendorCss)
      .pipe(minifyCSS())
      .pipe(concat('/vendor.min.css'))
-    .pipe(gulp.dest('build/css'));
+    .pipe(gulp.dest(projectGlobals.buildPath + 'css'));
 });
 
 //copy jQuery UI images
 gulp.task('copyCssImages',function(){
 
 gulp.src(projectGlobals.vendorCssImages)
-  .pipe(gulp.dest('./build/css/images'));
+  .pipe(gulp.dest(projectGlobals.buildPath + 'build/css/images'));
 })
 
 //build core script
@@ -104,7 +105,7 @@ gulp.task('corescripts', function() {
   return gulp.src(projectGlobals.coreScripts)
     /*.pipe(uglify())*/
     .pipe(concat('edWui.min.js'))
-    .pipe(gulp.dest('build/js'));
+    .pipe(gulp.dest(projectGlobals.buildPath + 'js'));
 });
 
 gulp.task('buildBoardJsonDatas', function () {
@@ -133,10 +134,10 @@ gulp.task('buildBoardJsonDatas', function () {
             });
             return json; // must return JSON object.
         }))
-        .pipe(gulp.dest('build/json'))
+        .pipe(gulp.dest(projectGlobals.buildPath + '/json'))
         .on('end',function(){
             process.jsonDatasToLoad.push(currentBoardPath+'/boards.json');
-            jsonfile.writeFileSync('build/json/'+currentBoardPath+'/boards.json', indexBoard);
+            jsonfile.writeFileSync(projectGlobals.buildPath + '/json/'+currentBoardPath+'/boards.json', indexBoard);
              console.log(process.jsonDatasToLoad);
              gulp.run('buildAppIndex');
         });
@@ -147,7 +148,7 @@ gulp.task('coreCss', function() {
   return gulp.src(projectGlobals.coreCss)
     .pipe(minifyCSS())
     .pipe(concat('edWui.min.css'))
-    .pipe(gulp.dest('build/css'));
+    .pipe(gulp.dest(projectGlobals.buildPath + '/css'));
 });
 
 //build templates
@@ -163,7 +164,7 @@ gulp.task('copyImg', function() {
  return gulp.src('img/**')
     // Pass in options to the task
     .pipe(imagemin({optimizationLevel: 5}))
-    .pipe(gulp.dest('build/img'));
+    .pipe(gulp.dest(projectGlobals.buildPath + 'img'));
 });
 
 
@@ -180,11 +181,11 @@ gulp.task('buildAppIndex', function () {
       /*.pipe(minifyHTML({spare: true}))*/
       .pipe(partials())
       .pipe(concat('templates.html'))
-      .pipe(gulp.dest('./build'))
+      .pipe(gulp.dest(projectGlobals.buildPath))
   ).on("end", function() {
     var currentFile = "";
 
-    gulp.src(['src/app_view/header.html','./build/jsonData.html','./build/templates.html','src/app_view/index.html','src/app_view/footer.html'])
+    gulp.src(['src/app_view/header.html',projectGlobals.buildPath + 'jsonData.html',projectGlobals.buildPath + 'templates.html','src/app_view/index.html','src/app_view/footer.html'])
         .pipe(tap(function (file,t) {
             currentFile = pathUtil.basename(file.path);
             console.log(currentFile);
