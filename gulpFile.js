@@ -48,6 +48,14 @@ gulp.task('default', function() {
       return runSeq('clean', ['buildVendor', 'buildCore', 'buildBoardJsonDatas']);
       });
 
+//default task
+gulp.task('github.io', function() {
+  projectGlobals.buildPath="../evifere.lescigales/edWui/";
+
+  return runSeq('clean', ['buildVendor', 'buildCore', 'buildBoardJsonDatas']);
+  });
+
+
 //build vendor files
 gulp.task('buildVendor',['vendorscripts','vendorcss'/*,'copyCssImages'*/]);
 
@@ -204,7 +212,7 @@ gulp.task('buildAppIndex', function () {
             })))
         .pipe(concat('index.html'))
         .pipe(minifyHTML({spare: true}))
-        .pipe(gulp.dest('./build'));
+        .pipe(gulp.dest(projectGlobals.buildPath));
   },'endclean');
 
 
