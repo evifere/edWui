@@ -66,7 +66,7 @@
     loadBoard: function(jsonUrl, deckIndex) {
       var _self = this;
 
-      if(typeof(_cordovaNative) === 'object'){
+      if(typeof(_cordovaNative) === 'object'  || window.location.hostname === "evifere.github.io"){
         jsonUrl = jsonUrl.replace('/json/','json/');
 
         console.log('cordova detected', jsonUrl);
