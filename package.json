@@ -24,7 +24,7 @@
     "gulp-template": "^5.0.0",
     "gulp-uglify": "^3.0.0",
     "gulp-xml2json": "~0.1.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-migrate": "^3.0.1",
     "jsonfile": "^5.0.0",
     "run-sequence": "^2.2.1",
