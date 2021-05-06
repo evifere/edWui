@@ -29,7 +29,7 @@
     "jsonfile": "^5.0.0",
     "run-sequence": "^2.2.1",
     "spectre-css": "^1.0.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "scripts": {
     "test": "gulp"
